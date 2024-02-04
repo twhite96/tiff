@@ -9,4 +9,3 @@ permalink: 'vignettes/page-{{ pagination.pageNumber }}/index.html'
 redirectFrom: ['/vignettes/', '/vignettes/page-0/']
 ---
 
-The hell

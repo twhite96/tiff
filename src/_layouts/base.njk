@@ -1,5 +1,4 @@
 {% set assetHash = helpers.random() %}
-
 <!DOCTYPE html>
 <html lang="{{ meta.lang }}">
   <head>
@@ -46,6 +45,14 @@
     <link
       rel="preload"
       href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="/assets/fonts/notoserif/notoserif-regular-webfont.woff2"
       as="font"
       type="font/woff2"
       crossorigin
