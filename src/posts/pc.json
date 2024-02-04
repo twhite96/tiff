@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "pc",
+  "permalink": "/pc-build/{{ title | slugify }}/index.html"
+}

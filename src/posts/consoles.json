@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "consoles",
+  "permalink": "/consoles/{{ title | slugify }}/index.html"
+}
