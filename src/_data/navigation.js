@@ -35,8 +35,8 @@ module.exports = {
   ],
   bottom: [
     {
-      text: 'Imprint',
-      url: '/imprint/'
+      text: 'Changelog',
+      url: '/changelog/'
     },
     {
       text: 'Privacy',
