@@ -1,23 +1,24 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  domain: 'https://tiffwhite.me',
+  siteName: '...tiff is typing',
   siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
+    'hi. nice to meet you.',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
   author: {
-    name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+    name: 'tiff', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
-    email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-    website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+    email: 'bloggy@tiffwhite.me', // i.e. hola@lenesaile.com - email of the author
+    website: 'https://www.tiffwhite.me' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
-    name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-    email: 'hola@lenesaile.com',
-    website: 'https://www.lenesaile.com',
-    social: 'https://front-end.social/@lene'
+    name: 'tiff', // i.e. Lene Saile - creator's (developer) name.
+    email: 'bloggy@tiffwhite.me',
+    website: 'https://www.tiffwhite.me',
+    social: 'https://appdot.net/@tiff'
   },
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
@@ -26,9 +27,9 @@ module.exports = {
     'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
   blog: {
     // this is for the rss feed
-    name: 'My Web Development Blog',
+    name: 'tiff is typing',
     description:
-      'Tell the word what you are writing about in your blog. It will show up on feed readers.',
+      'this is the personal website of a permanently broken woman.',
     tagSingle: 'Tag',
     tagPlural: 'Tags',
     tagMore: 'More tags:',
