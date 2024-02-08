@@ -41,11 +41,12 @@ All the usual Apple pundits raved about it and I gave it a shot.
 I disliked it off the bat and went back to Reeder.
 
 
-![](/images/white-nnw.png)
 
-![](/images/black-nnw.png)
+![](assets/images/white-nnw.png)
 
-![](/images/reeder.png)
+![](assets/images/black-nnw.png)
+
+![](https://res.cloudinary.com/diajberzp/image/upload/c_scale,w_1866/v1707371864/blog/reeder_knb1md.webp)
 
 
 
@@ -57,11 +58,11 @@ That plus Obsidian and Shortcuts on the Mac makes for a great research/writing w
 
 I decided to give NNW a try this past weekend and found that I enjoy it; the interface I found to be too cluttered at first fit right into the new way I consume written media.
 
-![](/images/ipad-white-nnw.png)
+![](assets/images/ipad-nnw.png)
 
-![](/images/white-nnw-2.png)
+![](assets/images/ipad-black-nnw.png)
 
-![](/images/nnw.png)
+![](https://res.cloudinary.com/diajberzp/image/upload/c_scale,w_1876/v1707371866/blog/nnw_xaflfv.webp)
 
 ## What's next?
 

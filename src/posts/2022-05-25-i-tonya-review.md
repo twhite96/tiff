@@ -6,4 +6,4 @@ tags: movies
 ---
 The acting in this, from Margo Robbie to Allison Janney makes this a masterpiece.
 
-![](/images/tonya.png)
+![](https://res.cloudinary.com/diajberzp/image/upload/v1707371867/blog/tonya_arymbx.png)

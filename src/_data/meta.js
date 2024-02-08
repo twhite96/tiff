@@ -46,6 +46,10 @@ module.exports = {
     ariaSocial: 'Social',
     closedText: 'Menu'
   },
+  webmentions: {
+    formTitle: 'Have you published a response? Let me know where:',
+    buttonValue: 'Send Webmention'
+  },
   themeSwitch: {
     title: 'Theme',
     light: 'light',

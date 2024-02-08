@@ -21,11 +21,16 @@ const {
   stripHtml,
   minifyCss,
   minifyJs,
-  splitlines
+  splitlines,
+  getWebmentionsForUrl,
+  webmentionSize,
+  webmentionsByType,
+  isOwnWebmention,
+  sortWebmentions
 } = require('./config/filters/index.js');
 
 // module import shortcodes
-const {imageShortcode, includeRaw, liteYoutube} = require('./config/shortcodes/index.js');
+const {imageShortcode, includeRaw, liteYoutube, asideShortcode, breakoutShortcode, insertionShortcode} = require('./config/shortcodes/index.js');
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
@@ -74,6 +79,11 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('toJson', JSON.stringify);
   eleventyConfig.addFilter('fromJson', JSON.parse);
 
+  eleventyConfig.addFilter('getWebmentionsForUrl', getWebmentionsForUrl);
+  eleventyConfig.addFilter('webmentionSize', webmentionSize);
+  eleventyConfig.addFilter('webmentionsByType', webmentionsByType);
+  eleventyConfig.addFilter('isOwnWebmention', isOwnWebmention);
+  eleventyConfig.addFilter('sortWebmentions', sortWebmentions);
   eleventyConfig.addFilter('keys', Object.keys);
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
@@ -81,6 +91,9 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('eleventyImage', imageShortcode);
   eleventyConfig.addShortcode('youtube', liteYoutube);
+  eleventyConfig.addShortcode('aside', asideShortcode);
+  eleventyConfig.addShortcode('breakout', breakoutShortcode);
+  eleventyConfig.addShortcode('insertion', insertionShortcode);
   eleventyConfig.addShortcode('include_raw', includeRaw);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, by stephanie eckles
 
