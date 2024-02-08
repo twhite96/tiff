@@ -18,7 +18,7 @@ module.exports = {
     },
     {
       text: 'console.log()',
-      url: '/consoles/page-0/'
+      url: '/consoles/'
     },
     {
       text: 'Movie Reviews',
