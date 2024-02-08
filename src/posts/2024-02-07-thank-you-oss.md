@@ -10,4 +10,4 @@ But with a few open source tools, a little *command line fu man chu*, I have all
 
 Thank you, OSS.
 
-![](./../assets/images/blog/thanku.gif)
+![](https://res.cloudinary.com/diajberzp/image/upload/v1707354472/blog/thanku_wuhxte.gif)

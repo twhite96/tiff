@@ -1,17 +1,15 @@
 ---
 permalink: /index.html
-title: ' Eleventy Excellent'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: '...tiff is typing'
+description: 'a personal blog.'
 layout: 'home'
 blog:
   title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+  intro: "The latest posts on the site."
 ---
 
-## An Eleventy starter
+## a personal website?
 
-This [Eleventy](https://www.11ty.dev/) starter is based on [Andy Bell's](https://mastodon.social/@andy@bell.bz) talk 'Be the browser’s mentor, not its micromanager' and its companion website buildexcellentwebsit.es.
+sure. why not? perhaps i am old and bitter about the web my generation built but i feel it is time to return to basics. so that is what i intend to do here.
 
-In his words, it's about hinting the browser rather than micromanaging it, using progressive enhancement, CSS layout, fluid type & spacing, as well as modern CSS features.
-
-This way we can shape frontends that look good to everyone, regardless of device, connection speed or context.
+let's make the internet weird again.
