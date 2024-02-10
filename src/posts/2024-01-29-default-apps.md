@@ -11,84 +11,84 @@ People are [writing](https://canion.blog/2023/11/04/duel-of-the.html) about [the
 📫 Mail Server/Service and Client
 - Fastmail on iOS and iPadOS
 - FMail2, free and open source Fastmail client for macOS
-
+<br>
 📝 Notes
 - Notes app
 - Obsidian
-
+<br>
 ✅ To-do
 - Things
 - Taskpaper
-
+<br>
 📸 iPhone Photography
 - Moment Pro Photo app
-
+<br>
 📹 iPhone videography
 - Moment Pro Photo app
 - Filmic Pro Legacy
-
+<br>
 🟦 Photo Management
 - RAW Photos
 - Photos.app
 - PowerPhotos (macOS only)
-
+<br>
 📆 Calendar
 - Calendars 366
 - Structured Calendar (Lifetime purchase)
-
+<br>
 📆 Calendar Backend
 - Fastmail
 - iCloud
-
+<br>
 📂 Cloud File Storage
 - iCloud
 - Nextcloud[^1]
 - Synology Drive
-
+<br>
 📰 RSS
 - NetNewsWire & Readwise Reader
 - RSS Backend iCloud[^2]
-
+<br>
 🔍 Browser
 - Arc
 - Safari
-
+<br>
 💬 Chat
 - iMessage
 - Signal
 - IRC
-
+<br>
 🔖 Bookmarks
 - Notes.app
 - Goodlinks
-
+<br>
 📜 Word Processing
 - VS Code
-
+<br>
 🤑 Budgeting
 - Google Sheets
 - My bank app
-
+<br>
 🎶 Music
 - Downloaded tracks with yt-dlp
 - IINA on macOS
 - Still need to pony up for iTunes Match
 - YouTube Music
-
+<br>
 🎙️ Podcasts
 - Overcast, though I am really finding I am done with the majority of Apple and tech focused podcasts. Been listening to this stuff for over 10 years now. Need a breather.
-
+<br>
 🔐 Password Management
 - 1Password[^3]
 - Vaultwarden[^4]
-
+<br>
 📸 Photo Editing
 - RAW Photos
 - Darkroom
 - Photomator
 - Pixelmator Pro
 - Pixelmator Photo
-
+<br>
 What are yours?
 
 

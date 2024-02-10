@@ -17,3 +17,23 @@
     {% endfor %}
   </ul>
 </nav>
+
+
+<nav id="mainnav" class="navbar" aria-label="{{ meta[page.lang].ariaLabels.mainMenu }}">
+  <ul>
+    {% for item in navigation[page.lang].top %}
+    <li>
+      <a
+        href="{{ item.url }}"
+        {{
+        helpers.getLinkActiveState(item.url,
+        page.url)
+        |
+        safe
+        }}
+        >{{ item.text }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,22 +1,19 @@
+// ------------------- theme switcher
+
 const storageKey = 'theme-preference';
 let switchSound;
-// get labels from meta
-const lightLabel = '{{ meta.themeSwitch.light }}';
-const darkLabel = '{{ meta.themeSwitch.dark }}';
- 
 
+document.addEventListener('DOMContentLoaded', () => {
+  switchSound = new Audio('/assets/sounds/light-on.mp3');
+});
 
 const onClick = () => {
   if (switchSound) {
     switchSound.play();
   }
-  document.addEventListener('DOMContentLoaded', () => {
-    switchSound = new Audio('/assets/sounds/light-on.mp3');
-  });
+
   // flip current value
   theme.value = theme.value === 'light' ? 'dark' : 'light';
-  document.querySelector('[theme-toggle]').querySelector('span').innerHTML =
-    theme.value === 'light' ? lightLabel : darkLabel;
   setPreference();
 };
 
@@ -33,9 +30,7 @@ const setPreference = () => {
 
 const reflectPreference = () => {
   document.firstElementChild.setAttribute('data-theme', theme.value);
-
-  // themeToggle.querySelector('span').innerHTML =
-  // 	theme.value === 'light' ? lightLabel : darkLabel;
+  document.querySelector('#theme-toggle')?.setAttribute('aria-label', theme.value);
 };
 
 const theme = {
@@ -46,29 +41,14 @@ const theme = {
 reflectPreference();
 
 window.onload = () => {
-  const themeToggle = document.querySelector('[theme-toggle]');
-  const switcher = document.querySelector('[data-theme-switcher]');
-
-  if (!switcher) {
-    return;
-  }
-
-  switcher.removeAttribute('hidden');
-
   reflectPreference();
-
-  themeToggle.addEventListener('click', onClick);
-  themeToggle.querySelector('span').innerHTML =
-    theme.value === 'light' ? lightLabel : darkLabel;
+  document.querySelector('#theme-toggle').addEventListener('click', onClick);
 };
 
 // sync with system changes
 window
   .matchMedia('(prefers-color-scheme: dark)')
-  .addEventListener('change', ({matches: isDark}) => {
+  .addEventListener('change', ({ matches: isDark }) => {
     theme.value = isDark ? 'dark' : 'light';
     setPreference();
   });
-
-
-  
