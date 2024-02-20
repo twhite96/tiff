@@ -1,5 +1,5 @@
 module.exports = {
-  url: process.env.URL || 'http://localhost:8080',
+  url: 'https://tiffwhite.me',
   domain: 'https://tiffwhite.me',
   siteName: '...tiff is typing',
   siteDescription:
