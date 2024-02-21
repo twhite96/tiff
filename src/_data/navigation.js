@@ -13,6 +13,10 @@ module.exports = {
       url: '/vignettes/page-0/'
     },
     {
+      text: '📲',
+      url: '/homescreens/page-0/'
+    },
+    {
       text: 'PC Build',
       url: '/pc-build/page-0/'
     },
