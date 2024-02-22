@@ -2,8 +2,12 @@
 title: Homescreens
 seo:
   title: Homescreens
-permalink: /homescreens/index.html
 description: Showing off my homescreens like it's 2014.
-layout: page
+layout: blog
+pagination:
+  data: collections.homescreens
+  size: 6
+permalink: 'homescreens/page-{{ pagination.pageNumber }}/index.html'
+redirectFrom: ['/homescreens/', '/homescreens/page-0/']
 ---
 

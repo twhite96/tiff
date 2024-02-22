@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "homescreens",
+  "permalink": "/homescreens/{{ title | slugify }}/index.html"
+}

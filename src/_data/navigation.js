@@ -5,11 +5,11 @@ module.exports = {
       url: '/'
     },
     {
-      text: 'Blog',
+      text: '✍️',
       url: '/blog/page-0/'
     },
     {
-      text: 'Vignettes',
+      text: '👓',
       url: '/vignettes/page-0/'
     },
     {
@@ -17,23 +17,23 @@ module.exports = {
       url: '/homescreens/page-0/'
     },
     {
-      text: 'PC Build',
+      text: '🖥️',
       url: '/pc-build/page-0/'
     },
     {
-      text: 'console.log()',
+      text: '🕹️',
       url: '/consoles/'
     },
     {
-      text: 'Movie Reviews',
+      text: '🎬',
       url: '/movie-reviews/page-0/'
     },
     {
-      text: 'Game Reviews',
+      text: '👾',
       url: '/game-reviews/page-0/'
     },
     {
-      text: 'About',
+      text: '🐈‍⬛',
       url: '/about/'
     }
   ],

@@ -9,7 +9,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   font-size: var(--size-step-0);
-  font-family: var(--font-base);
+  font-family: 'Neuton', serif;
   line-height: 1.4;
   letter-spacing: var(--tracking);
   display: flex;
