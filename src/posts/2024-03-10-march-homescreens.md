@@ -18,7 +18,7 @@ I may go with a brighter color *still* because life is hard. Really hard right n
 
 {% eleventyImage "./src/assets/images/screenshots/red.png", "Screenshot of homescreens", "Red, red watch" %}
 
-{% eleventyImage "./src/assets/images/screenshots/red.png", "Screenshot of homescreens", "Kind of my favorite color so far" %}
+{% eleventyImage "./src/assets/images/screenshots/salmon.png", "Screenshot of homescreens", "Kind of my favorite color so far" %}
 
 
 [^1]: I started to get my affairs in order. Take that for what you will.
