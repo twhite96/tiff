@@ -24,3 +24,9 @@ Widgetsmith is an easy purchase for this kind of thing and I use it extensively 
 Whenever I am working on content for a side project, I grab the *Content* homescreen. It usually kicks off on the weekends starting Friday evening and then again on Saturday evening as well.
 
 {% eleventyImage "./src/assets/images/screenshots/content.png", "Screenshot of homescreens", "The Content Homescreen" %}
+
+## Nighttime 
+
+This is the homescreen I use at night; very few distractions and hope for a better day tomorrow.
+
+{% eleventyImage "./src/assets/images/screenshots/night.png", "Screenshot of homescreens", "The Content Homescreen" %}
