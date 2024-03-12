@@ -29,4 +29,4 @@ Whenever I am working on content for a side project, I grab the *Content* homesc
 
 This is the homescreen I use at night; very few distractions and hope for a better day tomorrow.
 
-{% eleventyImage "./src/assets/images/screenshots/night.png", "Screenshot of homescreens", "The Content Homescreen" %}
+{% eleventyImage "./src/assets/images/screenshots/night.png", "Screenshot of homescreens", "The Nighttime Homescreen" %}
