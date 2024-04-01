@@ -1,46 +1,30 @@
 module.exports = {
   top: [
     {
-      text: '🏠',
-      url: '/'
-    },
-    {
-      text: '✍️',
-      url: '/blog/page-0/'
-    },
-    {
-      text: '👓',
-      url: '/vignettes/page-0/'
-    },
-    {
-      text: '📲',
-      url: '/homescreens/page-0/'
-    },
-    {
-      text: '🖥️',
-      url: '/pc-build/page-0/'
-    },
-    {
-      text: '🕹️',
-      url: '/consoles/'
-    },
-    {
-      text: '🎬',
-      url: '/movie-reviews/page-0/'
-    },
-    {
-      text: '👾',
-      url: '/game-reviews/page-0/'
-    },
-    {
-      text: '🐈‍⬛',
+      text: 'About',
       url: '/about/'
+    },
+    {
+      text: 'Get started',
+      url: '/get-started/'
+    },
+    {
+      text: 'Built with',
+      url: '/built-with/'
+    },
+    {
+      text: 'Blog',
+      url: '/blog/'
+    },
+    {
+      text: 'Style guide',
+      url: '/styleguide/'
     }
   ],
   bottom: [
     {
-      text: 'Changelog',
-      url: '/changelog/'
+      text: 'Imprint',
+      url: '/imprint/'
     },
     {
       text: 'Privacy',
