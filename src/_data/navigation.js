@@ -9,7 +9,7 @@ module.exports = {
       url: '/blog/page-0/'
     },
     {
-      text: '🪴',
+      text: '🛋',
       url: '/new-home/page-0/'
     },
     {
