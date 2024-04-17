@@ -8,3 +8,5 @@ pagination:
 permalink: 'new-home/page-{{ pagination.pageNumber }}/index.html'
 redirectFrom: ['/new-home/', '/new-home/page-0/']
 ---
+
+{% set itemList = collections.home %}

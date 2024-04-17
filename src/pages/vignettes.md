@@ -9,3 +9,4 @@ permalink: 'vignettes/page-{{ pagination.pageNumber }}/index.html'
 redirectFrom: ['/vignettes/', '/vignettes/page-0/']
 ---
 
+{% set itemList = collections.vignettes %}

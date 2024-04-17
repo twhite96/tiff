@@ -9,4 +9,4 @@ permalink: 'pc-build/page-{{ pagination.pageNumber }}/index.html'
 redirectFrom: ['/pc-build/', '/pc-build/page-0/']
 ---
 
-This blog has a pagination of {{ pagination.size }} posts per page.
+{% set itemList = collections.pc %}

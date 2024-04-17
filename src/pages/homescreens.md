@@ -11,3 +11,4 @@ permalink: 'homescreens/page-{{ pagination.pageNumber }}/index.html'
 redirectFrom: ['/homescreens/', '/homescreens/page-0/']
 ---
 
+{% set itemList = collections.homescreens %}

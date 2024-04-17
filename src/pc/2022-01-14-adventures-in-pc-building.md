@@ -1,7 +1,8 @@
 ---
 title: "Adventures in PC Building"
-description: "I am building a nice little PC for what I thought would be for pentesting and InfoSec but I am feeling the need to either setup a VM for that and install Steam "
+description: "The mishaps and triumphs of a PC building newbie"
 date: 2022-01-14
+tags: pc
 ---
 # Adventures in PC Building
 

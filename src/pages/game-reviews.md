@@ -9,4 +9,4 @@ permalink: 'game-reviews/page-{{ pagination.pageNumber }}/index.html'
 redirectFrom: ['/game-reviews/', '/game-reviews/page-0/']
 ---
 
-The hell
+{% set itemList = collections.games %}
