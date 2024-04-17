@@ -22,9 +22,21 @@ module.exports = {
   },
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
-  opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
-  opengraph_default_alt:
-    'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
+  meta_data: {
+    opengraph_default: '/assets/images/opengraph-default.jpg',
+    mastodonProfile: 'https://appdot.net/@tiff'
+  },
+  pagination: {
+    itemsPerPage: 5
+  },
+  webmentions: {
+    fallbackAvatar: '/assets/images/template/logo2.svg'
+  },
+  details: {
+    aria: 'section controls',
+    expand: 'expand all',
+    collapse: 'collapse all'
+  },
   blog: {
     // this is for the rss feed
     name: 'tiff is typing',
@@ -54,20 +66,6 @@ module.exports = {
     title: 'Theme',
     light: 'light',
     dark: 'dark'
-  },
-  greenweb: {
-    // this goues into src/common/greenweb.njk
-    providers: {
-      // if you want to add more than one, edit the array directly.
-      domain: 'netlify.com',
-      service: 'cdn'
-    },
-    credentials: {
-      // optional, eg: 	{ domain='my-org.com', doctype = 'webpage', url = 'https://my-org.com/our-climate-record'}
-      domain: '',
-      doctype: '',
-      url: ''
-    }
   },
   viewRepo: {
     // this is for the view/edit on github link. The value in the package.json will be pulled in.

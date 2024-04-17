@@ -8,7 +8,7 @@ article
 article
   [href^='http']:not([href*='localhost:8080']):not(
     [href*='tiffwhite.me']
-  ):not(.no-indicator)::after {
+  ):not(.no-indicator):not(.blogroll__item)::after {
   position: absolute;
   display: inline-block;
   inline-size: 1em;

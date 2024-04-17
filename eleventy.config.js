@@ -26,11 +26,12 @@ const {
   webmentionSize,
   webmentionsByType,
   isOwnWebmention,
-  sortWebmentions
+  sortWebmentions,
+  shuffle
 } = require('./config/filters/index.js');
 
 // module import shortcodes
-const {imageShortcode, includeRaw, liteYoutube, asideShortcode, breakoutShortcode, insertionShortcode} = require('./config/shortcodes/index.js');
+const {imageShortcode, includeRaw, liteYoutube, asideShortcode, breakoutShortcode, insertionShortcode, callout} = require('./config/shortcodes/index.js');
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
@@ -67,6 +68,7 @@ module.exports = eleventyConfig => {
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('toIsoString', toISOString);
+  eleventyConfig.addFilter('shuffle', shuffle);
   eleventyConfig.addFilter('formatDate', formatDate);
   eleventyConfig.addFilter('toAbsoluteUrl', toAbsoluteUrl);
   eleventyConfig.addFilter('stripHtml', stripHtml);
@@ -91,6 +93,7 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('eleventyImage', imageShortcode);
   eleventyConfig.addShortcode('youtube', liteYoutube);
+  eleventyConfig.addShortcode('callout', callout);
   eleventyConfig.addShortcode('aside', asideShortcode);
   eleventyConfig.addShortcode('breakout', breakoutShortcode);
   eleventyConfig.addShortcode('insertion', insertionShortcode);

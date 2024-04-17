@@ -3,9 +3,6 @@ permalink: /index.html
 title: '...tiff is typing'
 description: 'a personal blog.'
 layout: 'home'
-blog:
-  title: 'Blog'
-  intro: "The latest posts on the site."
 ---
 
 ## a personal website?

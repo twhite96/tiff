@@ -82,6 +82,7 @@ const webmentionSize = mentions => {
   return !mentions ? 0 : mentions.length;
 };
 
+
 const webmentionsByType = (mentions, mentionType) => {
   return mentions.filter(entry => !!entry[mentionType]);
 };
@@ -109,6 +110,21 @@ const sortWebmentions = mentions => {
   });
 };
 
+const shuffle = arr => {
+  let m = arr.length,
+    t,
+    i
+
+  while (m) {
+    i = Math.floor(Math.random() * m--)
+    t = arr[m]
+    arr[m] = arr[i]
+    arr[i] = t
+  }
+
+  return arr
+};
+
 
 module.exports = {
   toISOString,
@@ -122,5 +138,6 @@ module.exports = {
   webmentionSize,
   webmentionsByType,
   isOwnWebmention,
-  sortWebmentions
+  sortWebmentions,
+  shuffle
 };

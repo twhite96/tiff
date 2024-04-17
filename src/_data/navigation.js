@@ -9,6 +9,10 @@ module.exports = {
       url: '/blog/page-0/'
     },
     {
+      text: '🪴',
+      url: '/new-home/page-0/'
+    },
+    {
       text: '👓',
       url: '/vignettes/page-0/'
     },
@@ -39,11 +43,27 @@ module.exports = {
   ],
   bottom: [
     {
-      text: 'Changelog',
+      text: '🔃',
       url: '/changelog/'
     },
     {
-      text: 'Privacy',
+      text: '❓',
+      url: '/faqs/'
+    },
+    {
+      text: '👯',
+      url: '/blogroll/'
+    },
+    {
+      text: '📼',
+      url: '/tuberoll/'
+    },
+    {
+      text: '🎧',
+      url: '/now-playing/'
+    },
+    {
+      text: '🔐',
       url: '/privacy/'
     }
   ]

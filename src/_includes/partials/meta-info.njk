@@ -1,71 +1,91 @@
+<!-- https://htmlhead.dev / https://www.matuzo.at/blog/html-boilerplate/
+-->
+
+<!-- Set the base URL for all relative URLs within the document -->
 <base href="{{ page.url }}" />
 
 <meta
   name="description"
-  content="
-  {% if discover.description %} {{ discover.description }}
-  {% elif description %}
-  {{ description }}
-  {% else %}
-  {{ meta.siteDescription }}
-  {% endif %}
-  "
+  content="{% if discover.description %}{{ discover.description }}{% elif description %}{{
+    description
+  }}{% else %}{{ meta[page.lang].siteDescription }}{% endif %}"
 />
 
-<meta name="theme-color" content="{{ meta.themeColor }}" />
-<!-- Search Engines -->
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
-<!-- Made with Eleventy! -->
-<meta name="generator" content="{{ eleventy.generator }}" />
-<!-- Disable automatic detection and formatting of possible phone numbers -->
-<meta name="format-detection" content="telephone=no" />
-<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta
+  name="generator"
+  content="{{ eleventy.generator }}"
+/>
+<meta
+  name="format-detection"
+  content="telephone=no"
+/>
 <meta name="color-scheme" content="light dark" />
-<!-- activates page transitions -->
-<meta name="view-transition" content="same-origin" />
-
-<!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="{{ meta.url }}{{ page.url }}" />
-
-<!-- Links to information about the author(s) of the document -->
-<link rel="author" href="humans.txt" />
-
-{% if personal.social.mastodon %}
+<link
+  rel="canonical"
+  href="{{ meta.url }}{{ page.url }}"
+/>
+<link
+  rel="webmention"
+  href="https://webmention.io/www.tiffwhite.me/webmention"
+/>
+<link
+  rel="pingback"
+  href="https://webmention.io/www.tiffwhite.me/xmlrpc"
+/>
+{% if meta.meta_data.mastodonProfile %}
 <!-- Mastodon verified site -->
-<link rel="me" href="{{ personal.social.mastodon }}" />
+<link rel="me" href="{{ meta.meta_data.mastodonProfile }}" />
 {% endif %}
 
-<!-- Open Graph meta  -->
+<!-- alternate languages -->
+
+<link rel="alternate" href="{{ meta.url }}{{ page.url }}" />
+<link
+  rel="alternate"
+  hreflang="x-default"
+  href="{{ meta.url }}{{ page.url }}"
+/>
+
+<!-- Open Graph meta -->
 <meta property="og:url" content="{{ meta.url }}{{ page.url }}" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}"
+  content="{% if title %}{{ title }}{% else %}{{ meta[page.lang].siteName }}{% endif %}"
 />
+
 <meta
   property="og:image"
-  content="{{ meta.url }}{% if (layout == 'post') %}/assets/og-images/{{
+  content="{{
+    meta.url
+  }}{% if (category == 'blogpost') or (category == 'note') %}/assets/images/social-preview/{{
     title | slugify
   }}-preview.jpeg
-  {% else %}{{ meta.opengraph_default }}
-  {% endif %}"
+
+  {% elif featured_image  %}
+
+  {{ featured_image | replace('./src', '') }}
+
+  {% else %}{{ meta.meta_data.opengraph_default }}{% endif %}"
 />
-<meta
-  property="og:image:alt"
-  content="{% if (layout == 'post') %}{% else %}{{ meta.opengraph_default_alt }}
-{% endif %}"
-/>
+
 <meta
   property="og:description"
-  content="{% if description %}{{ description }}{% else %}{{
-    meta.siteDescription
-  }}{% endif %}"
-/>
-<meta property="og:site_name" content="{{ meta.siteName }}" />
-<meta property="og:locale" content="{{ meta.locale }}" />
-<meta property="article:author" content="{{ meta.author.name }}" />
+  content="{% if discover.description %}{{ discover.description }}{% elif description %}{{
+    description
+  }}{% else %}{{ meta[page.lang].siteDescription }}{% endif %}"
 
+/>
+<meta property="og:site_name" content="{{ meta[page.lang].siteName }}" />
+<meta property="article:author" content="{{ meta.author }}" />
+
+
+<!-- Favicon -->
+<link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
+<link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}" />
 <!-- Twitter specific head data was removed in v2 -->
 
 <!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
@@ -79,7 +99,7 @@
 {% endfor %}
 
 <!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
-<link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
+{# <link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
 <link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml" />
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}" />
-<link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
+<link rel="manifest" href="{{ '/site.webmanifest' | url }}" /> #}

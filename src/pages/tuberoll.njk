@@ -1,0 +1,36 @@
+---
+title: Tuberoll
+seo:
+  title: Tuberoll
+permalink: /tuberoll/index.html
+description: favorite youtube channels in no particular order, separated by topic
+layout: page
+---
+
+<article class="full section" style="--spot-color: var(--color-bg-accent)">
+  {% include 'svg/divider-soft-top.svg' %}
+
+  <section class="page__content">
+    <h2>Some of my favorite YouTube channels:</h2>
+    <div>
+      <ul class="blogroll">
+        <!-- you find tha data for that in src/_data/builtwith.json -->
+        {% for item in tuberoll | shuffle %}
+        <li class="blogroll__item">
+        <img src="{{ item.image }}" />
+          <div class="blogroll__profile">
+            <h2 class="blogroll__title">{{ item.title }}</h2>
+          </div>
+
+          <p>
+            {{ item.description }}
+            <a href="{{ item.url }}">{{ item.url | replace("https://", "") }}</a>
+          </p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>  
+  </section>
+
+  {% include 'svg/divider-soft-bottom.svg' %}
+</article>

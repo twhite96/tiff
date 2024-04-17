@@ -9,6 +9,18 @@ const slugifyString = str => {
   });
 };
 
+const Icon = (iconName, useInline = false) => {
+  const spriteUrl = '/assets/icons/icons.sprite.svg'
+  const iconId = `#icon-${iconName}`
+  const href = useInline ? iconId : spriteUrl + iconId
+
+  const output = `<svg class="icon icon--${iconName}" role="img" aria-hidden="true" width="24" height="24">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="${href}"></use>
+    </svg>`
+
+  return minify(output)
+}
+
 /** throw an error if the provided argument is not of the expected. */
 const throwIfNotType = (arg, expectedType) => {
   if (typeof arg !== expectedType) {
@@ -20,5 +32,6 @@ const throwIfNotType = (arg, expectedType) => {
 
 module.exports = {
   slugifyString,
-  throwIfNotType
+  throwIfNotType,
+  Icon
 };

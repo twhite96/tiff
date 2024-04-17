@@ -9,4 +9,4 @@ permalink: 'blog/page-{{ pagination.pageNumber }}/index.html'
 redirectFrom: ['/blog/', '/blog/page-0/']
 ---
 
-This blog has a pagination of {{ pagination.size }} posts per page.
+The latest posts on the blog.
