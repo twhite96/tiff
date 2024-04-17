@@ -179,3 +179,54 @@ li.blogroll__item::marker {
   object-fit: cover;
   margin-right: 1rem;
 }
+
+.callout {
+  --callout-color: currentColor;
+  position: relative;
+  border-radius: 0 0.5rem 0.5rem 0;
+  border: 1px solid var(--color-border);
+  border-left: 0;
+  background-color: var(--color-bg-offset);
+  text-align: left;
+}
+
+.callout__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  padding: 0.25rem;
+  color: var(--callout-color);
+  background-color: var(--color-bg);
+  margin-left: 2px;
+}
+
+.callout__content {
+  padding: 1rem;
+  border-left: 4px solid var(--callout-color);
+}
+
+.callout__content>*+* {
+  margin-top: 2rem;
+}
+
+.callout--warning,
+.callout--action {
+  --callout-color: var(--color-primary);
+}
+
+.callout--tip,
+.callout--info {
+  --callout-color: var(--color-secondary);
+}
+
+.icon {
+  display: inline-block;
+  font-size: 1.5em;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  pointer-events: none;
+}

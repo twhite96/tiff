@@ -30,8 +30,13 @@ const {
   shuffle
 } = require('./config/filters/index.js');
 
+const {
+  Icon,
+  Callout
+} = require('./config/utils/components.js')
+
 // module import shortcodes
-const {imageShortcode, includeRaw, liteYoutube, asideShortcode, breakoutShortcode, insertionShortcode, callout} = require('./config/shortcodes/index.js');
+const {imageShortcode, includeRaw, liteYoutube, asideShortcode, breakoutShortcode, insertionShortcode} = require('./config/shortcodes/index.js');
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
@@ -93,7 +98,9 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('eleventyImage', imageShortcode);
   eleventyConfig.addShortcode('youtube', liteYoutube);
-  eleventyConfig.addShortcode('callout', callout);
+
+  eleventyConfig.addPairedShortcode('callout', Callout)
+  eleventyConfig.addShortcode('icon', Icon)
   eleventyConfig.addShortcode('aside', asideShortcode);
   eleventyConfig.addShortcode('breakout', breakoutShortcode);
   eleventyConfig.addShortcode('insertion', insertionShortcode);
