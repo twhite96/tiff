@@ -22,6 +22,6 @@ There's one woman begging for work, anything at all. She's put in 1000 applicati
 
 👻👻👻
 
-Like I applied to a customer call center job for PNC and they didn't get back to me for months and then rejected my application. I am completely capabale of doing the job, I am criminally over-qualified for it, and yet.
+Like I applied to a customer call center job for PNC and they didn't get back to me for months and then rejected my application. I am completely capable of doing the job, I am criminally over-qualified for it, and yet.
 
 Well, comrades. Watching the world burn and consuming LeftTube has given me a chance to pick up my sickle and head for the resistance, whatever that looks like.
