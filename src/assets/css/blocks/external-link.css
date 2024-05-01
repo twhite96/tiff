@@ -1,14 +1,14 @@
 article
   [href^='http']:not([href*='localhost:8080']):not(
-    [href*='tiffwhite.me']
+    [href*='eleventy-excellent.netlify.app']
   ):not(.button) {
   padding-inline-end: 0.8em;
 }
 
 article
   [href^='http']:not([href*='localhost:8080']):not(
-    [href*='tiffwhite.me']
-  ):not(.no-indicator):not(.blogroll__item)::after {
+    [href*='eleventy-excellent.netlify.app']
+  ):not(.no-indicator)::after {
   position: absolute;
   display: inline-block;
   inline-size: 1em;
