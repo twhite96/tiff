@@ -2,7 +2,6 @@
 title: "Mom"
 description: "I want to speak with my mother pls"
 date: 2024-05-03
-tags: vignettes
 ---
 
 Mom, gramps, please. I miss how you could calm me down, keep me calm, and joke with me.
