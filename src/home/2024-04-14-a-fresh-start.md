@@ -2,7 +2,6 @@
 title: "A Clean, Well-lighted, Place"
 description: "A fresh start."
 date: 2024-04-14
-tags: home
 ---
 
 So... great news! I am off the *people in poverty looking for affordable housing* waiting list and should be moving soon. I have an appointment with my local HUD Office, who know me well, as before I ever taught myself to code, I had been in their stead since I moved on my own at 25 years old. Everyone I've ever met from the age of 20 on in the circles I ran in are mainstays in HUD. No relief for the downtrodden, I suppose.

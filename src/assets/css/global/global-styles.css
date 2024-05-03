@@ -10,6 +10,7 @@ body {
   background-color: var(--color-bg);
   font-size: var(--size-step-0);
   font-family: 'Merriweather', serif;
+  /* font-family: "Roboto Slab", serif; */
   line-height: 1.4;
   letter-spacing: var(--tracking);
   display: flex;
@@ -54,18 +55,19 @@ blockquote:not([class]) {
 blockquote {
   border-inline-start: 0.5rem solid var(--color-primary);
   padding: var(--space-m-l);
-  /* font-size: var(--size-step-2); */
+  font-family: var(--font-base);
+  font-style: italic;
 }
 
 blockquote > * + * {
   margin-block-start: var(--space-m-l);
 }
 
-blockquote :last-child {
+/* blockquote :last-child {
   font-family: var(--font-base);
   font-style: normal;
-  /* font-size: var(--size-step-1); */
-}
+  font-size: var(--size-step-1);
+} */
 
 svg {
   block-size: 2ex;
