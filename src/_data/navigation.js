@@ -9,9 +9,17 @@ module.exports = {
       url: '/blog/page-0/'
     },
     {
-      text: '🛋',
-      url: '/new-home/page-0/'
+      text: '🧰',
+      url: '/tools/page-0/'
     },
+    {
+      text: '🔪',
+      url: '/knives/page-0/'
+    },
+    // {
+    //   text: '🛋',
+    //   url: '/new-home/page-0/'
+    // },
     {
       text: '👓',
       url: '/vignettes/page-0/'

@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "knives",
+  "permalink": "/knives/{{ title | slugify }}/index.html"
+}
