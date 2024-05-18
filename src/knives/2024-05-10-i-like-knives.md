@@ -1,7 +1,7 @@
 ---
 title: "I like knives"
-description: "I collect them because I can't own guns. Not at all sorry."
+description: "Introduction to my weird obsession with EDC knives, with a dollup of reviewing."
 date: 2024-05-10
 ---
 
-We're testing this shit.
+I like all knives and knaves guy.
