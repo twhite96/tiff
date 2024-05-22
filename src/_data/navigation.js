@@ -16,10 +16,10 @@ module.exports = {
       text: '🔪',
       url: '/knives/page-0/'
     },
-    // {
-    //   text: '🛋',
-    //   url: '/new-home/page-0/'
-    // },
+    {
+      text: '📘',
+      url: '/journal/page-0/'
+    },
     {
       text: '👓',
       url: '/vignettes/page-0/'
