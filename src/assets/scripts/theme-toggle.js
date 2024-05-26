@@ -12,7 +12,12 @@ const onClick = () => {
   }
   document.addEventListener('DOMContentLoaded', () => {
     switchSound = new Audio('/assets/sounds/light-on.mp3');
+    document.querySelector('#theme-switcher-label').addEventListener('click', onClick);  
   });
+
+  // window.onload = () => {
+  //   document.querySelector('#theme-switcher-label').addEventListener('click', onClick);
+  // }
   // flip current value
   theme.value = theme.value === 'light' ? 'dark' : 'light';
   document.querySelector('[theme-toggle]').querySelector('span').innerHTML =

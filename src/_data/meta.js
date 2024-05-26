@@ -72,5 +72,6 @@ module.exports = {
     allow: false,
     infoText: 'View this page on GitHub'
   },
-  easteregg: true
+  easteregg: true,
+  switchSound: true
 };
