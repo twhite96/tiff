@@ -7,6 +7,9 @@
  *  - `./config/transforms/index.js`
  */
 
+// register dotenv for process.env.* variables to pickup
+require('dotenv').config()
+
 // JSDoc comment: Hint VS Code for eleventyConfig autocompletion. © Henry Desroches - https://gist.github.com/xdesro/69583b25d281d055cd12b144381123bf
 
 /**
@@ -22,21 +25,11 @@ const {
   minifyCss,
   minifyJs,
   splitlines,
-  getWebmentionsForUrl,
-  webmentionSize,
-  webmentionsByType,
-  isOwnWebmention,
-  sortWebmentions,
-  shuffle
+  shuffleArray
 } = require('./config/filters/index.js');
 
-const {
-  Icon,
-  Callout
-} = require('./config/utils/components.js')
-
 // module import shortcodes
-const {imageShortcode, includeRaw, liteYoutube, asideShortcode, breakoutShortcode, insertionShortcode} = require('./config/shortcodes/index.js');
+const {imageShortcode, includeRaw, liteYoutube} = require('./config/shortcodes/index.js');
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
@@ -50,6 +43,7 @@ const {svgToJpeg} = require('./config/events/index.js');
 
 const {EleventyRenderPlugin} = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const bundlerPlugin = require('@11ty/eleventy-plugin-bundle');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
@@ -72,12 +66,12 @@ module.exports = eleventyConfig => {
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('toIsoString', toISOString);
-  eleventyConfig.addFilter('shuffle', shuffle);
   eleventyConfig.addFilter('formatDate', formatDate);
   eleventyConfig.addFilter('toAbsoluteUrl', toAbsoluteUrl);
   eleventyConfig.addFilter('stripHtml', stripHtml);
   eleventyConfig.addFilter('slugify', slugifyString);
   eleventyConfig.addFilter('splitlines', splitlines);
+  eleventyConfig.addFilter('shuffle', shuffleArray);
 
   eleventyConfig.addFilter('cssmin', minifyCss);
   eleventyConfig.addNunjucksAsyncFilter('jsmin', minifyJs);
@@ -85,11 +79,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('toJson', JSON.stringify);
   eleventyConfig.addFilter('fromJson', JSON.parse);
 
-  eleventyConfig.addFilter('getWebmentionsForUrl', getWebmentionsForUrl);
-  eleventyConfig.addFilter('webmentionSize', webmentionSize);
-  eleventyConfig.addFilter('webmentionsByType', webmentionsByType);
-  eleventyConfig.addFilter('isOwnWebmention', isOwnWebmention);
-  eleventyConfig.addFilter('sortWebmentions', sortWebmentions);
   eleventyConfig.addFilter('keys', Object.keys);
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
@@ -97,12 +86,6 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('eleventyImage', imageShortcode);
   eleventyConfig.addShortcode('youtube', liteYoutube);
-
-  eleventyConfig.addPairedShortcode('callout', Callout)
-  eleventyConfig.addShortcode('icon', Icon)
-  eleventyConfig.addShortcode('aside', asideShortcode);
-  eleventyConfig.addShortcode('breakout', breakoutShortcode);
-  eleventyConfig.addShortcode('insertion', insertionShortcode);
   eleventyConfig.addShortcode('include_raw', includeRaw);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, by stephanie eckles
 
@@ -128,6 +111,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(inclusiveLangPlugin);
   eleventyConfig.addPlugin(bundlerPlugin);
   eleventyConfig.setLibrary('md', markdownLib);
 
@@ -136,7 +120,7 @@ module.exports = eleventyConfig => {
 
   // 	--------------------- Passthrough File Copy -----------------------
   // same path
-  ['src/assets/sounds/', 'src/assets/fonts/', 'src/assets/images/blog', 'src/assets/images/screenshots', 'src/assets/images/quick-reviews', 'src/assets/images/gallery', 'src/assets/images/template', 'src/assets/og-images'].forEach(
+  ['src/assets/fonts/', 'src/assets/images/template', 'src/assets/og-images'].forEach(
     path => eleventyConfig.addPassthroughCopy(path)
   );
 

@@ -1,6 +1,5 @@
 const slugify = require('slugify');
-const components = require('./components.js')
-const { Icon, Callout } = components
+
 /** Converts string to a slug form. */
 const slugifyString = str => {
   return slugify(str, {
@@ -21,7 +20,5 @@ const throwIfNotType = (arg, expectedType) => {
 
 module.exports = {
   slugifyString,
-  throwIfNotType,
-  Icon,
-  Callout
+  throwIfNotType
 };

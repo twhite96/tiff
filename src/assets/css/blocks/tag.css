@@ -11,14 +11,13 @@
   font-size: var(--size-step-min-2);
   text-transform: uppercase;
   padding: 0.1rem 0.625rem;
-  font-weight: 700;
+  font-weight: var(--font-bold);
 }
 
 .card .post-tag {
   --button-bg: var(--color-bg-accent-2);
   --button-text: var(--color-text);
   --button-border: var(--color-bg-accent-2);
-  margin-inline-start: var(--space-s-m);
 }
 
 /* layout */

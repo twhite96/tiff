@@ -1,7 +1,7 @@
 /** All blog posts as a collection. */
 const getAllPosts = collection => {
-  const projects = collection.getFilteredByGlob('./src/posts/*.md');
-  return projects.reverse();
+  const posts = collection.getFilteredByGlob('./src/posts/**/*.md');
+  return posts.reverse();
 };
 
 /** All markdown files as a collection for sitemap.xml */
@@ -15,7 +15,7 @@ const tagList = collection => {
   collection.getAll().forEach(item => {
     if (!item.data.tags) return;
     item.data.tags
-      .filter(tag => !['posts', 'all'].includes(tag))
+      .filter(tag => !['posts', 'docs', 'all'].includes(tag))
       .forEach(tag => tagsSet.add(tag));
   });
   return Array.from(tagsSet).sort();

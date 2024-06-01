@@ -74,57 +74,9 @@ const splitlines = (input, maxCharLength) => {
   return lines;
 };
 
-const getWebmentionsForUrl = (webmentions, url) => {
-  return webmentions.children.filter(entry => entry['wm-target'] === url);
+const shuffleArray = array => {
+  return array.sort(() => Math.random() - 0.5);
 };
-
-const webmentionSize = mentions => {
-  return !mentions ? 0 : mentions.length;
-};
-
-
-const webmentionsByType = (mentions, mentionType) => {
-  return mentions.filter(entry => !!entry[mentionType]);
-};
-
-const isOwnWebmention = webmention => {
-  const urls = [
-    'https://www.tiffwhite.me',
-    'https://appdot.net/@tiff'
-  ];
-  const authorUrl = webmention.author ? webmention.author.url : false;
-  // check if a given URL is part of this site.
-  return authorUrl && urls.includes(authorUrl);
-};
-
-const sortWebmentions = mentions => {
-  return mentions.sort((a, b) => {
-    if (a['published'] < b['published']) {
-      return -1;
-    }
-    if (a['published'] > b['published']) {
-      return 1;
-    }
-    // a must be equal to b
-    return 0;
-  });
-};
-
-const shuffle = arr => {
-  let m = arr.length,
-    t,
-    i
-
-  while (m) {
-    i = Math.floor(Math.random() * m--)
-    t = arr[m]
-    arr[m] = arr[i]
-    arr[i] = t
-  }
-
-  return arr
-};
-
 
 module.exports = {
   toISOString,
@@ -134,10 +86,5 @@ module.exports = {
   minifyCss,
   minifyJs,
   splitlines,
-  getWebmentionsForUrl,
-  webmentionSize,
-  webmentionsByType,
-  isOwnWebmention,
-  sortWebmentions,
-  shuffle
+  shuffleArray
 };
