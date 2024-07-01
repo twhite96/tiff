@@ -3,10 +3,10 @@ title: Blog
 description: 'All blog posts can be found here'
 layout: blog
 pagination:
-  data: collections.posts
+  data: collections.allPosts
   size: 6
-permalink: 'blog/page-{{ pagination.pageNumber }}/index.html'
-redirectFrom: ['/blog/', '/blog/page-0/']
+permalink: 'blog/{% if pagination.pageNumber >=1  %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
-The latest posts on the blog.
+This blog has a pagination of **{{ pagination.size }}** posts per page.
+The pagination is only shown if there are more posts ({{ collections.posts.length }}) than items per page ({{ pagination.size }}).

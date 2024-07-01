@@ -1,77 +1,33 @@
-module.exports = {
+export default {
   top: [
     {
-      text: '🏠',
-      url: '/'
-    },
-    {
-      text: '✍️',
-      url: '/blog/page-0/'
-    },
-    {
-      text: '🧰',
-      url: '/tools/page-0/'
-    },
-    {
-      text: '🔪',
-      url: '/knives/page-0/'
-    },
-    {
-      text: '📘',
-      url: '/journal/page-0/'
-    },
-    {
-      text: '👓',
-      url: '/vignettes/page-0/'
-    },
-    {
-      text: '📲',
-      url: '/homescreens/page-0/'
-    },
-    {
-      text: '🖥️',
-      url: '/pc-build/page-0/'
-    },
-    {
-      text: '🕹️',
-      url: '/consoles/'
-    },
-    {
-      text: '🎬',
-      url: '/movie-reviews/page-0/'
-    },
-    {
-      text: '👾',
-      url: '/game-reviews/page-0/'
-    },
-    {
-      text: '🐈‍⬛',
+      text: 'About',
       url: '/about/'
+    },
+    {
+      text: 'Docs',
+      url: '/get-started/'
+    },
+    {
+      text: 'Built with',
+      url: '/built-with/'
+    },
+    {
+      text: 'Blog',
+      url: '/blog/'
     }
   ],
   bottom: [
     {
-      text: '🔃',
-      url: '/changelog/'
+      text: 'Style guide',
+      url: '/styleguide/'
     },
     {
-      text: '❓',
-      url: '/faqs/'
+      text: 'Imprint',
+      url: '/imprint/'
     },
     {
-      text: '👯',
-      url: '/blogroll/'
-    },
-    {
-      text: '📼',
-      url: '/tuberoll/'
-    },
-    {
-      text: '🎧',
-      url: '/now-playing/'
-    },
-    {
-      text: '🔐',
+      text: 'Privacy',
       url: '/privacy/'
     }
   ]
