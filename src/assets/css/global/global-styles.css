@@ -112,6 +112,55 @@ main:focus {
   outline: none;
 }
 
+/* article styles from Samy at thttpster.io */
+
+article [href^='http']:not([href*='tiffwhite.me']) {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font-display);
+  padding-block: 0.5ch;
+  padding-inline: 0.2ch;
+  transition: 0.25s;
+  color: #2FACFC;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+article [href^='http']:not([href*='tiffwhite.me']):visited {
+  color: #DD4462;
+}
+
+article [href^='http']:not([href*='tiffwhite.me']):hover {
+  text-decoration: none;
+  color: var(--color-light);
+  background-color: #2FACFC;
+  transition: 0.25s;
+}
+
+article [href*='tiffwhite.me'] {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font-display);
+  padding-block: 0.5ch;
+  padding-inline: 0.2ch;
+  transition: 0.25s;
+  transition: 0.25s;
+  color: #2FACFC;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+article [href*='tiffwhite.me']:visited {
+  color: #DD4462;
+}
+
+article [href*='tiffwhite.me']:hover {
+  text-decoration: none;
+  color: var(--color-light);
+  background-color: #2FACFC;
+  transition: 0.25s;
+}
+
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {
   background-color: var(--color-text);

@@ -3,7 +3,7 @@ layout: base
 schema: blog
 ---
 
-<article class="region blog" style="--region-space-top: var(--space-xl-2xl)">
+{# <article class="region blog" style="--region-space-top: var(--space-xl-2xl)">
   <div class="wrapper flow prose">
     <h1 class="gradient-text">{{ title }}</h1>
 
@@ -30,7 +30,28 @@ schema: blog
 
     {{ content | safe }}
     {% include 'components/edit-on.njk' %}
+  </div> #}
+
+<article class="region blog">
+  <div class="wrapper prose">
+    <h1 class="title-shadow-post">{{ title }}</h1>
+
+    <div class="post-list my-s-m">
+      {% set definedDate = date %}{% include "partials/date-time.njk" %}
+      <ul class="tag-list">
+        {% for tag in tags %}
+          {% if tag != "posts" %}
+            <li class="tag">#{{ tag }}</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  <div class="wrapper flow">
+    {{ content | safe }}
+
   </div>
+  </div>
+</article>
 
 <div hidden>
     <!--  h-card infos -->
@@ -46,9 +67,9 @@ schema: blog
 </article>
 
 <!-- set webmentions url -->
-{% set webmentionUrl %}{{ page.url | url | absoluteUrl(meta.url) }}{% endset %}
+{# {% include "partials/webmention.njk" %} #}
 <!-- include webmentions -->
-{% include "partials/webmentions.njk" %}
+{# {% include "partials/webmentions.njk" %} #}
 
 <!-- cta -->
 {% include 'partials/cta.njk' %}

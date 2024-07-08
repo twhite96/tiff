@@ -1,0 +1,119 @@
+.post-meta {
+  display: flex;
+  margin: var(--space-2xs), 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
+  font-family: var(--font-display);
+}
+
+.tag-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  color: currentColor;
+  row-gap: 0.7ch;
+}
+
+.tag {
+  list-style-type: none;
+  font-size: var(--size-step-0);
+  right: 0;
+  font-weight: 300;
+  border: 1px solid black;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  padding-inline: 1ch;
+  border-radius: 0.5rem;
+  padding-top: 0.3ch;
+}
+
+/* .tag:hover{
+  text-shadow: var(--color-dark) 0.1ch 0.1ch;
+  color: #10B981
+} */
+
+
+
+.post-item {
+  border: 0.3rem solid var(--color-dark);
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  padding: var(--space-m-l);
+  margin: var(--space-xs-s);
+  margin-top: var(--space-l);
+  max-inline-size: unset;
+  box-shadow: 0.75rem 0.75rem 0 0 var(--color-dark);
+  transition: all 0.25s ease-in-out;
+}
+
+.post-item ::selection {
+  color: var(--color-dark);
+  background: #10B981;
+}
+
+.post-item h3 {
+  font-size: var(--size-step-2);
+  font-weight: 700;
+}
+
+.post-item h2 a,
+.post-item h3 a {
+  text-decoration: none;
+}
+
+.post-item:hover,
+.post-item:focus-within {
+  border: 0.3rem solid var(--color-dark);
+  box-shadow: 0.75rem -0.75rem 0 0 #04e1b8, -0.75rem 0.75rem 0 0 #2FACFC;
+  transition: all 0.25s ease-in-out;
+}
+
+.post-item a {
+  text-decoration: none;
+}
+
+/* 'clickable' */
+
+.post-item:focus-within a:focus {
+  outline: none;
+}
+
+.post-item {
+  position: relative;
+}
+
+.post-item a:after {
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.post-category {
+  color: currentColor;
+  font-size: var(--size-step-1);
+  font-weight: 600;
+  margin-right: var(--space-xs-s);
+}
+
+/* item category styles */
+
+.item-article {
+  border-color: #DD4462;
+  color: #2F3036;
+  background-color: #2FACFC;
+}
+
+.item-article:hover,
+.item-article:focus-within {
+  border-color: var(--color-dark);
+  box-shadow: 0.75rem -0.75rem 0 0 #ed4f7c, -0.75rem 0.75rem 0 0 #2FACFC;
+}

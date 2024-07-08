@@ -1,40 +1,23 @@
-<article
-  id="webmention-{{ webmention['wm-id'] }}"
-  class="webmention {% if webmention|isOwnWebmention %}webmention--own {% else %} webmention--single {% endif %}"
->
-  <div class="webmention__meta">
-    {% if webmention.author %} {% if webmention.author.photo %}
-    <img
-      src="{{ webmention.author.photo }}"
-      alt="{{ webmention.author.name }}"
-      width="48"
-      height="48"
-      loading="lazy"
-    />
-    {% else %}
-    <img
-      src="{{ meta.webmentions.fallbackAvatar | url }}"
-      alt=""
-      width="48"
-      height="48"
-    />
-    {% endif %}
-    <span>
-      <strong class="p-name">{{ webmention.author.name }}</strong>
-    </span>
-    {% else %}
-    <span>
-      <strong>Anonymous</strong>
-    </span>
-    {% endif %} {% if webmention.wm-received %}
-    <!-- date -->
-    {% set definedDate = webmention.wm-received %} {% include "partials/date-time.njk" %}
-    {% endif %}
+<aside class="webmentions-box">
+  {% if sharedlink %}
+  <div class="meta-mastolinks">
+    <h1>Related links:</h1> 
+    {% for link in sharedlink %} 
+      <a href="{{ link }}" class="shared-link">{{link | stripHttps }}</a>
+    {% endfor %}
   </div>
-  <p class="webmention-text">
-    {{ webmention.content.text | truncate }}
-    {% if webmention.url %}
-    <a href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer"> source </a>
-    {% endif %}
-  </p>
-</article>
+  {% endif %}
+
+
+  <p class="text-center">Did you mention this on your website? Tell me about it and send a webmention!</p>
+
+  <form class="post-meta-form" action="https://webmention.io/httpster.io/webmention" method="post" class="form-webmention">
+    <label for="form-webmention-source" class="font-display">URL</label>
+    <div class="post-meta-fields">
+      <input class="post-meta-field" id="form-webmention-source" type="url" name="source" placeholder="https://yourwebsite.url" required />
+      <input type="hidden" name="target" value="https://httpster.io{{ page.url }}" />
+      <input type="submit" class="rounded-btn post-meta-btn" value="Send" />
+    </div>
+  </form>
+
+</aside>
