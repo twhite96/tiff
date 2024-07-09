@@ -5,9 +5,21 @@ module.exports = {
       url: '/'
     },
     {
-      text: '✍️',
+      text: '/blog',
       url: '/blog/page-0/'
     },
+    {
+      text: '/journal',
+      url: '/journal/page-0/'
+    },
+    {
+      text: '/vignettes',
+      url: '/vignettes/page-0/'
+    },
+    // {
+    //   text: '/career',
+    //   url: '/career-anxieties/page-0/'
+    // },
     {
       text: '🧰',
       url: '/tools/page-0/'
@@ -15,14 +27,6 @@ module.exports = {
     {
       text: '🔪',
       url: '/knives/page-0/'
-    },
-    {
-      text: '📘',
-      url: '/journal/page-0/'
-    },
-    {
-      text: '👓',
-      url: '/vignettes/page-0/'
     },
     {
       text: '📲',
@@ -37,8 +41,8 @@ module.exports = {
       url: '/consoles/'
     },
     {
-      text: '🎬',
-      url: '/movie-reviews/page-0/'
+      text: '📚',
+      url: '/book-reviews/page-0/'
     },
     {
       text: '👾',
@@ -51,28 +55,28 @@ module.exports = {
   ],
   bottom: [
     {
-      text: '🔃',
+      text: '/changelog',
       url: '/changelog/'
     },
     {
-      text: '❓',
+      text: '/FAQs',
       url: '/faqs/'
     },
     {
-      text: '👯',
+      text: '/blogroll',
       url: '/blogroll/'
     },
     {
-      text: '📼',
+      text: '/tuberoll',
       url: '/tuberoll/'
+    },
+    {
+      text: '/privacy',
+      url: '/privacy/'
     },
     {
       text: '🎧',
       url: '/now-playing/'
-    },
-    {
-      text: '🔐',
-      url: '/privacy/'
     }
   ]
 };
