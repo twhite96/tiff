@@ -7,7 +7,7 @@ article
 
 article
   [href^='http']:not([href*='localhost:8080']):not(
-    [href*='tiffwhite.me']
+    [href*='tiffwhite.me']:not([href*='albumwhale.com'])
   ):not(.no-indicator):not(.blogroll__item)::after {
   position: absolute;
   display: inline-block;

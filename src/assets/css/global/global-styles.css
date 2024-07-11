@@ -79,6 +79,17 @@ strong {
   font-weight: 800;
 }
 
+img.whale {
+  object-fit: fill;
+  clip-path: circle(30%);
+  text-decoration: none !important;
+  margin: 0 auto;
+}
+
+/* a[href^=http]:is([href*="albumwhale.com"]) {
+  background-image: none !important;
+} */
+
 hr {
   border: 0;
   height: 1px;

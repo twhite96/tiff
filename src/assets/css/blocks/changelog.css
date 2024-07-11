@@ -11,6 +11,16 @@
   align-items: center;
 }
 
+.changelog-item[data-theme='light'] {
+  color-scheme: light;
+  border: 0.3ch solid var(--color-base-dark);
+}
+
+
+.changelog-item[data-theme='dark'] {
+  border: 0.3ch solid var(--color-base-light);
+}
+
 .changelog-item li {
   list-style-type: none;
   font-weight: 600;
