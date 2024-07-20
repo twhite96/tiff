@@ -29,8 +29,8 @@ module.exports = {
       url: '/knives/page-0/'
     },
     {
-      text: '📲',
-      url: '/homescreens/page-0/'
+      text: '🎥',
+      url: '/movie-reviews/page-0/'
     },
     {
       text: '🖥️',
