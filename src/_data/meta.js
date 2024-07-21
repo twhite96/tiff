@@ -16,7 +16,7 @@ module.exports = {
   },
   creator: {
     name: 'tiff', // i.e. Lene Saile - creator's (developer) name.
-    email: 'bloggy@tiffwhite.me',
+    email: '',
     website: 'https://www.tiffwhite.me',
     social: 'https://appdot.net/@tiff'
   },
