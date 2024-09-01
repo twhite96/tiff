@@ -1,82 +1,34 @@
-module.exports = {
+export default {
   top: [
     {
-      text: '🏠',
-      url: '/'
-    },
-    {
-      text: '/blog',
-      url: '/blog/page-0/'
-    },
-    {
-      text: '/journal',
-      url: '/journal/page-0/'
-    },
-    {
-      text: '/vignettes',
-      url: '/vignettes/page-0/'
-    },
-    // {
-    //   text: '/career',
-    //   url: '/career-anxieties/page-0/'
-    // },
-    {
-      text: '🧰',
-      url: '/tools/page-0/'
-    },
-    {
-      text: '🔪',
-      url: '/knives/page-0/'
-    },
-    {
-      text: '🎥',
-      url: '/movie-reviews/page-0/'
-    },
-    {
-      text: '🖥️',
-      url: '/pc-build/page-0/'
-    },
-    {
-      text: '🕹️',
-      url: '/consoles/'
-    },
-    {
-      text: '📚',
-      url: '/book-reviews/page-0/'
-    },
-    {
-      text: '👾',
-      url: '/game-reviews/page-0/'
-    },
-    {
-      text: '🐈‍⬛',
+      text: 'About',
       url: '/about/'
+    },
+    {
+      text: 'Docs',
+      url: '/get-started/'
+    },
+    {
+      text: 'Built with',
+      url: '/built-with/'
+    },
+    {
+      text: 'Blog',
+      url: '/blog/'
     }
   ],
   bottom: [
     {
-      text: '/changelog',
-      url: '/changelog/'
+      text: 'Style guide',
+      url: '/styleguide/'
     },
     {
-      text: '/FAQs',
-      url: '/faqs/'
+      text: 'Imprint',
+      url: '/imprint/'
     },
     {
-      text: '/blogroll',
-      url: '/blogroll/'
-    },
-    {
-      text: '/tuberoll',
-      url: '/tuberoll/'
-    },
-    {
-      text: '/privacy',
+      text: 'Privacy',
       url: '/privacy/'
-    },
-    {
-      text: '🎧',
-      url: '/now-playing/'
     }
   ]
 };
