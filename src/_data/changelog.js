@@ -1,6 +1,11 @@
 module.exports = {
   log: [
     {
+      date: "2024-09-01",
+      type: "content",
+      content: "Now status update and moving the home section back into the navbar 🥰"
+    },
+    {
       date: "2024-07-20",
       type: "content",
       content: "Added a movie review, Boyz n the Hood."

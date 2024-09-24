@@ -9,9 +9,13 @@ module.exports = {
       url: '/blog/page-0/'
     },
     {
-      text: '/journal',
-      url: '/journal/page-0/'
+      text: '/home',
+      url: '/new-home/page-0/'
     },
+    // {
+    //   text: '/journal',
+    //   url: '/journal/page-0/'
+    // },
     {
       text: '/vignettes',
       url: '/vignettes/page-0/'
@@ -59,8 +63,8 @@ module.exports = {
       url: '/changelog/'
     },
     {
-      text: '/FAQs',
-      url: '/faqs/'
+      text: '/Omake 🍵',
+      url: '/omake/'
     },
     {
       text: '/blogroll',

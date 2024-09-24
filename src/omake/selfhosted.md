@@ -1,5 +1,5 @@
 ---
-title: Lab
+title: "🧰 Selfhosted"
 ---
 
 I love building out my homelab.

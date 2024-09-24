@@ -1,10 +1,11 @@
 ---
-title: Defaults
+title: "✅ Defaults"
 ---
 
 People are [writing](https://canion.blog/2023/11/04/duel-of-the.html) about [their](https://ericmwalk.blog/2023/11/06/application-defaults.html) [default apps](https://gabz.blog/post/my-defaults-tpq2ulkn) in the [small community](https://blog.bdw.li/posts/app-defaults/) that is the indie web. Here are mine.
 
 {% callout "info" %} This is a running list taken from a post from the end of last year. {% endcallout %}
+
 
 <!--more-->
 

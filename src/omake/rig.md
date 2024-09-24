@@ -1,5 +1,5 @@
 ---
-title: Rig
+title: "🖥️ Rig"
 ---
 
 I am anxiously awaiting the time to build my white lightning PC.

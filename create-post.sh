@@ -31,12 +31,11 @@ fi
 
 frontmatter=
 {
-  echo "---"
-  echo "title: "$file_title""
-  echo "date: "$date_now""
-  echo "description: "$description""
-  echo "tags: "[${tags[@]}]""
-  echo "---"
+  printf "---"
+  printf "title: "$file_title""
+  printf "date: "$date_now""
+  printf "description: "$description""
+  printf "---"
 
 } > "$file_name"
 
@@ -44,10 +43,12 @@ frontmatter=
 # mkdir -p "$directory"
 
 # Navigate to the directory
-cd "$directory"
+# cd "$directory"
 
 # Create the file and write content to it
-echo "$frontmatter" > "$file_name"
+echo <<< "$frontmatter" > "$file_name"
+
+mv "$file_name" "$directory" 
 
 # Display the created filename
 echo "Post '$file_name' created with content in '$directory'."
