@@ -1,31 +1,18 @@
 ---
-title: "🖥️ Rig"
+title: "🪖 Rig"
 ---
 
-I am anxiously awaiting the time to build my white lightning PC.
+Everything I've collected so far for my White Lightning PC Build
 
-You can find my parts list on [PC Parts Picker](https://pcpartpicker.com/list/XzsdCd) or refer to the table below.
-
-[PCPartPicker Part List](https://pcpartpicker.com/list/XzsdCd)
-
-Type                 | Item                                                                                                                                                                                                                                       | Price
-:--------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------
-**CPU**              | [AMD Ryzen 7 7700X 4.5 GHz 8-Core Processor](https://pcpartpicker.com/product/WfqPxr/amd-ryzen-7-7700x-45-ghz-8-core-processor-100-100000591wof)                                                                                           | $301.51 @ Amazon
-**CPU Cooler**       | [Corsair iCUE H150i ELITE CAPELLIX 75 CFM Liquid CPU Cooler](https://pcpartpicker.com/product/7PxRsY/corsair-icue-h150i-elite-capellix-75-cfm-liquid-cpu-cooler-cw-9060051-ww)                                                             | $369.95 @ Amazon
-**Motherboard**      | [NZXT N7 B650E ATX AM5 Motherboard](https://pcpartpicker.com/product/mBwypg/nzxt-n7-b650e-atx-am5-motherboard-n7-b65xt-w1)                                                                                                                 | $279.99 @ Newegg Sellers
-**Memory**           | [Corsair Vengeance RGB 32 GB (2 x 16 GB) DDR5-6200 CL36 Memory](https://pcpartpicker.com/product/K6wypg/corsair-vengeance-rgb-32-gb-2-x-16-gb-ddr5-6200-cl36-memory-cmh32gx5m2b6200c36w)                                                   | $135.99 @ Amazon
-**Storage**          | [Corsair MP600 PRO LPX 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive](https://pcpartpicker.com/product/cXHqqs/corsair-mp600-pro-lpx-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-cssd-f2000gbmp600plpw)                               | $174.99 @ Amazon
-**Video Card**       | [Gigabyte AERO OC GeForce RTX 4060 8 GB Video Card](https://pcpartpicker.com/product/xh3NnQ/gigabyte-aero-oc-geforce-rtx-4060-8-gb-video-card-gv-n4060aero-oc-8gd)                                                                         | $319.99 @ Amazon
-**Case**             | [Lian Li O11 Dynamic EVO ATX Mid Tower Case](https://pcpartpicker.com/product/4cPQzy/lian-li-o11-dynamic-evo-atx-mid-tower-case-pc-o11dew)                                                                                                 | $222.44 @ Amazon
-**Power Supply**     | [Corsair RM850x (2018) 850 W 80+ Gold Certified Fully Modular ATX Power Supply](https://pcpartpicker.com/product/dnhKHx/corsair-rm850x-2018-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020188-na)                          | $308.63 @ Amazon
-**Operating System** | [Microsoft Windows 11 Home OEM - DVD 64-bit](https://pcpartpicker.com/product/dKkWGX/microsoft-windows-11-home-oem-dvd-64-bit-kw9-00633)                                                                                                   | $109.99 @ Newegg
-**Case Fan**         | [Lian Li Uni Fan SL-Infinity 61.3 CFM 120 mm Fans 3-Pack](https://pcpartpicker.com/product/6kQcCJ/lian-li-uni-fan-sl-infinity-613-cfm-120-mm-fans-3-pack-uf-slin120-3w)                                                                    | $85.90 @ Amazon
-**Monitor**          | [Samsung M80B 32.0" 3840 x 2160 60 Hz Monitor](https://pcpartpicker.com/product/xhcG3C/samsung-m80b-320-3840x2160-60-hz-monitor-ls32bm801unxgo)                                                                                            | $673.52 @ Amazon
-**Keyboard**         | [Corsair K65 RGB MINI RGB Wired Mini Keyboard](https://pcpartpicker.com/product/czLFf7/corsair-ch-9194114-na-rgb-wired-mini-keyboard-ch-9194114-na)                                                                                        | $109.99 @ Best Buy
-**Mouse**            | [Logitech G502 X Plus Wired/Wired/Wireless Optical Mouse](https://pcpartpicker.com/product/FRZ9TW/logitech-g502-x-plus-wiredwiredwireless-optical-mouse-910-006169)                                                                        | $127.69 @ Amazon
-**Headphones**       | [Logitech PRO X 2 LIGHTSPEED  Headset](https://pcpartpicker.com/product/jzhv6h/logitech-pro-x-2-lightspeed-headset-981-001268)                                                                                                             | $241.99 @ Amazon
-**Speakers**         | [Edifier MR4 42 W Speakers](https://pcpartpicker.com/product/V788TW/edifier-mr4-42-w-speakers-mr4-white)                                                                                                                                   | $129.99 @ Amazon
-**Custom**           | [DEZCTOP Bifrost 63W x 28D Gaming PC Computer Desk with Shelves, Large Workstation for Gamers or Home Office with Pegboard, Built-in Cable Management, Stainless Steel Frame (Black)](https://pcpartpicker.com/product/xyytt6/placeholder) | Purchased For $499.99
-                     | *Prices include shipping, taxes, rebates, and discounts*                                                                                                                                                                                   |
-                     | **Total**                                                                                                                                                                                                                                  | **$4092.55**
-                     | Generated by [PCPartPicker](https://pcpartpicker.com) 2024-04-16 23:39 EDT-0400                                                                                                                                                            |
+- AMD Ryzen 9 5900X 12-core, 24-Thread CPU
+- Corsair RMX 850x Gold White Series PSU
+- CORSAIR - LL Series, LL120 RGB, 120mm RGB LED Fan, Triple Pack with Lighting Node PRO - White
+- CORSAIR - VENGEANCE RGB PRO SL 32GB (2PK x 16GB) 3600MHz DDR4 RAM
+- CORSAIR - iCUE H150i ELITE CAPELLIX, 360mm Radiator, Liquid CPU Cooler - White
+- LIAN LI PC-O11 Dynamic Case White
+- Samsung 970 EVO Plus SSD
+- GIGABYTE GeForce RTX 4060 AERO OC 8G Graphics Card - White
+- Redragon K530 Pro Draconic 60% Wireless RGB Mechanical Keyboard - White
+- Redragon Gaming Mouse, Wired Gaming Mouse with RGB Backlit, 8000 DPI - White
+- CORSAIR HS80 RGB WIRELESS Multiplatform Gaming Headset iCUE Compatible - White
+- LG UltraGear 27GN950-B 27" UHD 3840 x 2160 (4K)
