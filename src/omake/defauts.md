@@ -10,19 +10,20 @@ People are [writing](https://canion.blog/2023/11/04/duel-of-the.html) about [the
 <!--more-->
 
 📫 Mail Server/Service and Client
+- ProtonMail
 - Fastmail on iOS and iPadOS
 - FMail2, free and open source Fastmail client for macOS
 <br>
 📝 Notes
-- Notes app
+- Trilium, self hosted
 - Obsidian
 <br>
 ✅ To-do
-- Things
-- Taskpaper
+- Nextcloud Tasks
 <br>
-📸 iPhone Photography
+📸 Mobile Photography
 - Moment Pro Photo app
+- Google Pixel stock camera
 <br>
 📹 iPhone videography
 - Moment Pro Photo app
@@ -30,25 +31,25 @@ People are [writing](https://canion.blog/2023/11/04/duel-of-the.html) about [the
 <br>
 🟦 Photo Management
 - RAW Photos
-- Photos.app
 - PowerPhotos (macOS only)
+- PhotoPrism, selfhosted
+- Immich, aslo selfhosted
 <br>
 📆 Calendar
 - Calendars 366
 - Structured Calendar (Lifetime purchase)
 <br>
 📆 Calendar Backend
-- Fastmail
-- iCloud
+- Nextcloud
+- Proton
 <br>
 📂 Cloud File Storage
-- iCloud
 - Nextcloud[^1]
-- Synology Drive
 <br>
 📰 RSS
-- NetNewsWire & Readwise Reader
-- RSS Backend iCloud[^2]
+- NetNewsWire on iPad and macOS
+- ReadYOU on Android
+- RSS Backend: FreshRSS <del>iCloud</del>[^2]
 <br>
 🔍 Browser
 - Arc
@@ -58,23 +59,24 @@ People are [writing](https://canion.blog/2023/11/04/duel-of-the.html) about [the
 - iMessage
 - Signal
 - IRC
+- Wire
+- Matrix
 <br>
 🔖 Bookmarks
-- Notes.app
+- Omnivore
 - Goodlinks
 <br>
 📜 Word Processing
 - VS Code
 <br>
 🤑 Budgeting
+- Actual, selfhosted
 - Google Sheets
 - My bank app
 <br>
 🎶 Music
-- Downloaded tracks with yt-dlp
-- IINA on macOS
-- Still need to pony up for iTunes Match
-- YouTube Music
+- Jellyfin
+- Fintunes
 <br>
 🎙️ Podcasts
 - Overcast, though I am really finding I am done with the majority of Apple and tech focused podcasts. Been listening to this stuff for over 10 years now. Need a breather.

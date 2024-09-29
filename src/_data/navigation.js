@@ -9,8 +9,8 @@ module.exports = {
       url: '/blog/page-0/'
     },
     {
-      text: '/home',
-      url: '/new-home/page-0/'
+      text: '/omake',
+      url: '/omake/'
     },
     // {
     //   text: '/journal',
@@ -61,10 +61,6 @@ module.exports = {
     {
       text: '/changelog',
       url: '/changelog/'
-    },
-    {
-      text: '/Omake 🍵',
-      url: '/omake/'
     },
     {
       text: '/blogroll',
