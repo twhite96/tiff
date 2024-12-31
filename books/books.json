@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "books",
+  "permalink": "/book-reviews/{{ title | slugify }}/index.html"
+}

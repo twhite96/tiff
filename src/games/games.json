@@ -1,0 +1,5 @@
+{
+  "layout": "blog",
+  "tags": "games",
+  "permalink": "/game-reviews/{{ title | slugify }}/index.html"
+}

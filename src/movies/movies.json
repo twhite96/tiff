@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "movies",
+  "permalink": "/movie-reviews/{{ title | slugify }}/index.html"
+}

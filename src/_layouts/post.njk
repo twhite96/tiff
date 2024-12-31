@@ -1,0 +1,54 @@
+---
+layout: base
+schema: blog
+---
+
+<article class="region blog" style="--region-space-top: var(--space-xl-2xl)">
+  <div class="wrapper flow prose">
+    <h1 class="gradient-text">{{ title }}</h1>
+
+    <!-- image -->
+    {% if image %}{% eleventyImage image, alt or title, null, "eager", "feature" %} {%
+    endif %}
+
+    <!-- credit -->
+    {% if credit %}
+    <p class="feature text-step-min-1">© {{ credit }}</p>
+    {% endif %}
+
+    <p class="cluster text-step-min-1" style="--gutter: var(--space-xs-s)">
+      <!-- date -->
+      {% set definedDate = date %} {% include "components/date.njk" %}
+
+      <!-- tags -->
+      {% if tags.length > 1 %} {% for tag in tags %} {% if tag != "posts" %}
+      <a class="button post-tag" href="/tags/{{ tags[1] }}">
+        {{ tag }}
+      </a>
+      {% endif %} {% endfor %} {% endif %}
+    </p>
+
+    {{ content | safe }}
+    {% include 'components/edit-on.njk' %}
+  </div>
+
+<div hidden>
+    <!--  h-card infos -->
+    <a class="u-url" href="{{ page.url | url | absoluteUrl(meta.url) }}">{{ title }}</a>
+    <p class="h-card p-author">
+      <a class="p-name u-url" rel="author" href="{{ meta.url }}">{{ meta.author }}</a>
+      <img
+        src="{{ meta.authorAvatar | url | absoluteUrl(meta.url) }}"
+        alt="{{ meta[page.lang].siteName }}"
+      />
+    </p>
+  </div>
+</article>
+
+<!-- set webmentions url -->
+{% set webmentionUrl %}{{ page.url | url | absoluteUrl(meta.url) }}{% endset %}
+<!-- include webmentions -->
+{% include "partials/webmentions.njk" %}
+
+<!-- cta -->
+{% include 'partials/cta.njk' %}

@@ -1,0 +1,36 @@
+---
+layout: page
+title: Blogroll
+permalink: /blogroll/
+description: Some of my favorite blogs to visit on the web.
+---
+
+<article class="full section" style="--spot-color: var(--color-bg-accent)">
+{% include 'svg/divider-soft-top.svg' %}
+
+  <section class="page__content">
+    <h1>Blogs I like to read:</h1>
+    <br /><a href="/blogroll/feeds.xml" class="u-align-middle">{% include 'svg/rss.svg' %} Blogroll RSS feed</a>
+    <div>
+      <ul class="blogroll">
+        <!-- you find tha data for that in src/_data/builtwith.json -->
+        {% for item in blogroll | shuffle %}
+        <li class="blogroll__item">
+          <img src="https://v1.indieweb-avatar.11ty.dev/{{ item.url | urlencode }}/" class="blogroll__avatar" width="60" height="60" alt="Avatar image for {{ item.title }}" loading="lazy" decoding="async" />
+                    <div>
+          <div class="blogroll__profile">
+            <h2 class="blogroll__title">{{ item.title }}</h2>
+          </div>
+
+          <p>
+            {{ item.description }}
+            <a class="blogroll__link" href="{{ item.url }}">{{ item.url | replace("https://", "") }}</a>
+          </p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>  
+  </section>
+
+  {# {% include 'svg/divider-soft-bottom.svg' %} #}
+</article>

@@ -1,0 +1,272 @@
+/*
+  Global styles
+
+  Low-specificity, global styles that apply to the whole
+  project: https://cube.fyi/css.html
+*/
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  font-size: var(--size-step-0);
+  font-family: 'Roboto Slab', serif;
+  /* font-family: "Roboto Slab", serif; */
+  line-height: 1.4;
+  letter-spacing: var(--tracking);
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  accent-color: var(--color-primary);
+}
+
+main {
+  flex: auto;
+}
+
+/* Base typesetting */
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  letter-spacing: var(--tracking-s);
+  font-weight: 700;
+  font-family: var(--font-display);
+}
+
+h1 {
+  font-size: var(--size-step-6);
+  color: #f43f5e !important;
+}
+
+h2 {
+  font-size: var(--size-step-4);
+}
+
+h3 {
+  font-size: var(--size-step-2);
+}
+
+/* Set line lengths */
+p,
+li,
+blockquote:not([class]) {
+  max-inline-size: 65ch;
+}
+
+blockquote {
+  border-inline-start: 0.5rem solid var(--color-primary);
+  padding: var(--space-m-l);
+  font-family: var(--font-base);
+  font-style: italic;
+}
+
+blockquote > * + * {
+  margin-block-start: var(--space-m-l);
+}
+
+/* blockquote :last-child {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-size: var(--size-step-1);
+} */
+
+svg {
+  block-size: 2ex;
+  inline-size: auto;
+  flex: none;
+}
+
+strong {
+  font-weight: 800;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 10%;
+  margin-block: var(--space-m-l);
+  margin-inline-start: 0;
+  background-color: var(--color-bg-accent-2);
+}
+
+[role='list'] {
+  padding: 0;
+}
+
+/* Base interactive elements */
+
+a {
+  text-decoration-thickness: 0.08em;
+}
+
+div.flow > h2 a, .card h2, .card h3 > a{
+  font-family: var(--font-base);
+  font-size: var(--size-step-2);
+  color: var(--color-text) !important;
+}
+
+.pagination li > a {
+    background-color: #343434;
+    color: #FFFDF5;
+}
+
+/* .pagination li > a {
+  color-scheme: only light;
+  background-color: #FFFDF5!important;
+  color: #f43f5e!important;
+} */
+
+.pagination li:hover > a {
+  background-color: #f43f5e !important;
+  color:#FFFDF5 !important;
+}
+
+ .site-foot__inner a {
+   color: var(--color-text) !important;
+ }
+
+h3:where(a) {
+  color: var(--color-text) !important;
+}
+
+.site-foot .creator {
+  text-decoration: none;
+  color: var(--color-text) !important;
+}
+
+/* div.flow>h2 a {
+  color: #f43f5e !important;
+} */
+
+.site-nav a {
+  color: #f43f5e !important;
+}
+
+div.repel > a span {
+  color: #f43f5e !important;
+}
+
+.site-nav [aria-current=page], .site-nav [data-state=active] {
+  color: #FFFDF5 !important;
+  text-decoration: none !important;
+  background-color: #f43f5e  !important;
+  padding: var(--space-s) !important;
+
+}
+
+.region {
+  padding-block-end: var(--region-space-bottom, var(--space-s-m)) !important;
+  padding-block-start: var(--region-space-top, var(--space-s-m)) !important;
+}
+a.nav:hover {
+  background-color: #f43f5e;
+  color: #FFFDF5 !important;
+  text-decoration: none !important;
+  text-decoration-color: #f43f5e !important;
+  padding: var(--space-s) !important;
+}
+a:hover {
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 3px solid;
+  outline-offset: 0.3ch;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* Base selection styles that invert whatever colours are rendered */
+::selection {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+.preload-transitions * {
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  ::after,
+  ::before {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+.blogroll {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 -1.5rem;
+}
+
+li.blogroll__item::marker {
+  display: none !important;
+}
+
+.blogroll__item {
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+  background-color: var(--color-bg);
+  list-style: none;
+  overflow: hidden !important;
+}
+
+.blogroll__profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.blogroll__title {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+}
+
+.blogroll__link {
+  display: block;
+  text-overflow: ellipsis;
+  color: #f43f5e !important;
+  background-color: var(--color-bg) !important;
+}
+
+a.u-align-middle {
+    color: #f43f5e !important;
+    background-color: var(--color-bg) !important;
+} 
+
+
+.blogroll__avatar {
+  flex: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+
+.icon {
+  display: inline-block;
+  font-size: 1.5em;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  pointer-events: none;
+}
+
+.section__inner {
+  background-color: var(--color-bg) !important;
+}
