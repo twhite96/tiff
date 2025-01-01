@@ -110,8 +110,8 @@ div.flow > h2 a, .card h2,h3, .card h3 > a {
 }
 
 .pagination li > a {
-  background-color: #343434;
-  color: #FFFDF5;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 /* .pagination li > a {
