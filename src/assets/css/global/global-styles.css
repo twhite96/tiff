@@ -60,7 +60,7 @@ blockquote {
   font-style: italic;
 }
 
-blockquote > * + * {
+blockquote>*+* {
   margin-block-start: var(--space-m-l);
 }
 
@@ -95,19 +95,23 @@ hr {
 
 /* Base interactive elements */
 
+a.heading-anchor {
+   color: var(--color-text) !important;
+}
+
 a {
   text-decoration-thickness: 0.08em;
 }
 
-div.flow > h2 a, .card h2, .card h3 > a{
+div.flow > h2 a, .card h2,h3, .card h3 > a {
   font-family: var(--font-base);
   font-size: var(--size-step-2);
   color: var(--color-text) !important;
 }
 
 .pagination li > a {
-    background-color: #343434;
-    color: #FFFDF5;
+  background-color: #343434;
+  color: #FFFDF5;
 }
 
 /* .pagination li > a {
@@ -116,14 +120,14 @@ div.flow > h2 a, .card h2, .card h3 > a{
   color: #f43f5e!important;
 } */
 
-.pagination li:hover > a {
+.pagination li:hover>a {
   background-color: #f43f5e !important;
-  color:#FFFDF5 !important;
+  color: #FFFDF5 !important;
 }
 
- .site-foot__inner a {
-   color: var(--color-text) !important;
- }
+.site-foot__inner a {
+  color: var(--color-text) !important;
+}
 
 h3:where(a) {
   color: var(--color-text) !important;
@@ -146,10 +150,11 @@ div.repel > a span {
   color: #f43f5e !important;
 }
 
-.site-nav [aria-current=page], .site-nav [data-state=active] {
+.site-nav [aria-current=page],
+.site-nav [data-state=active] {
   color: #FFFDF5 !important;
   text-decoration: none !important;
-  background-color: #f43f5e  !important;
+  background-color: #f43f5e !important;
   padding: var(--space-s) !important;
 
 }
@@ -158,6 +163,7 @@ div.repel > a span {
   padding-block-end: var(--region-space-bottom, var(--space-s-m)) !important;
   padding-block-start: var(--region-space-top, var(--space-s-m)) !important;
 }
+
 a.nav:hover {
   background-color: #f43f5e;
   color: #FFFDF5 !important;
@@ -165,6 +171,7 @@ a.nav:hover {
   text-decoration-color: #f43f5e !important;
   padding: var(--space-s) !important;
 }
+
 a:hover {
   text-decoration: none;
 }
@@ -242,9 +249,9 @@ li.blogroll__item::marker {
 }
 
 a.u-align-middle {
-    color: #f43f5e !important;
-    background-color: var(--color-bg) !important;
-} 
+  color: #f43f5e !important;
+  background-color: var(--color-bg) !important;
+}
 
 
 .blogroll__avatar {
