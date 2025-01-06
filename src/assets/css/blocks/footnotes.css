@@ -6,12 +6,19 @@
   font-size: var(--size-step-min-2);
   vertical-align: super;
   margin-inline-start: 0.1ch;
-  color: var(--color-text-accent);
+  text-decoration: none !important;
+  color: var(--color-accent);
 }
 
 .footnote-ref a {
   text-decoration: none;
   padding: 0.3ch;
+  text-decoration: none !important;
+  background-color: #FF1B75 !important;
+  color: #FFFDF5 !important;
+  text-decoration: none !important;
+  border-radius: var(--border-radius) !important;
+
 }
 
 .footnote-backref {

@@ -1,82 +1,82 @@
 module.exports = {
   top: [
     {
-      text: '🏠',
-      url: '/'
+      text: "🏠",
+      url: "/",
     },
     {
-      text: '/blog',
-      url: '/blog/page-0/'
+      text: "/blog",
+      url: "/blog/page-0/",
     },
     {
-      text: '/omake',
-      url: '/omake/'
+      text: "/omake",
+      url: "/omake/",
     },
     // {
     //   text: '/journal',
     //   url: '/journal/page-0/'
     // },
-    {
-      text: '/vignettes',
-      url: '/vignettes/page-0/'
-    },
     // {
     //   text: '/career',
     //   url: '/career-anxieties/page-0/'
     // },
     {
-      text: '🧰',
-      url: '/tools/page-0/'
+      text: "/tools",
+      url: "/tools/page-0/",
     },
     {
-      text: '🔪',
-      url: '/knives/page-0/'
+      text: "/knives",
+      url: "/knives/page-0/",
+    },
+    // // {
+    // //   text: "reviews",
+    // //   url: "/movie-reviews/page-0/",
+    // // },
+    {
+      text: "/pc build",
+      url: "/pc-build/page-0/",
     },
     {
-      text: '🎥',
-      url: '/movie-reviews/page-0/'
+      text: "/books",
+      url: "/book-reviews/page-0/",
     },
+    // {
+    //   text: "games",
+    //   url: "/game-reviews/page-0/",
+    // },
     {
-      text: '🖥️',
-      url: '/pc-build/page-0/'
+      text: "/me",
+      url: "/about/",
     },
-    {
-      text: '🕹️',
-      url: '/consoles/'
-    },
-    {
-      text: '📚',
-      url: '/book-reviews/page-0/'
-    },
-    {
-      text: '👾',
-      url: '/game-reviews/page-0/'
-    },
-    {
-      text: '🐈‍⬛',
-      url: '/about/'
-    }
   ],
   bottom: [
     {
-      text: '/changelog',
-      url: '/changelog/'
+      text: "/changelog",
+      url: "/changelog/",
     },
     {
-      text: '/blogroll',
-      url: '/blogroll/'
+      text: "/blogroll",
+      url: "/blogroll/",
     },
     {
-      text: '/tuberoll',
-      url: '/tuberoll/'
+      text: "/tuberoll",
+      url: "/tuberoll/",
     },
     {
-      text: '/privacy',
-      url: '/privacy/'
+      text: "/vignettes",
+      url: "/vignettes/page-0/",
     },
     {
-      text: '🎧',
-      url: '/now-playing/'
-    }
-  ]
+      text: "/consoles",
+      url: "/consoles/",
+    },
+    {
+      text: "/privacy",
+      url: "/privacy/",
+    },
+    {
+      text: "🎧",
+      url: "/now-playing/",
+    },
+  ],
 };
