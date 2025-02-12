@@ -33,12 +33,12 @@ module.exports = {
     // //   url: "/movie-reviews/page-0/",
     // // },
     {
-      text: "/pc build",
-      url: "/pc-build/page-0/",
+      text: "/uses",
+      url: "/uses/",
     },
     {
-      text: "/books",
-      url: "/book-reviews/page-0/",
+      text: "/now",
+      url: "/now/",
     },
     // {
     //   text: "games",
