@@ -85,7 +85,13 @@ It's the thing where I can't promise any of my friends and loved ones that I won
 > Take me inside, I'll meet you there
 
 > Am I alive? (Yeah, yeah, yeah, yeah, yeah)
-> Yeah
+> Am I aware? (Yeah, yeah, yeah, yeah, yeah)
+> Do you get high? (Yeah, yeah, yeah, yeah, yeah)
+> Are we prepared? (Yeah, yeah, yeah, yeah, yeah)
+> Then one day we'll die (yeah, yeah, yeah, yeah, yeah)
+> No one will care (yeah, yeah, yeah, yeah, yeah)
+> Do you get high? (Yeah, yeah, yeah, yeah, yeah)
+> We will survive (yeah, yeah, yeah, yeah, yeah)
 > Who do you think you are?
 > Young man? Young man?
 > Yeah
