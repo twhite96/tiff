@@ -1,11 +1,17 @@
 module.exports = {
   log: [
     {
+      date: "2025-03-25",
+      type: "content",
+      content: "More posts as I plan to write more and read more this year.",
+    },
+    {
       date: "2025-01-05",
       type: "chore",
       content:
         "Changed color of navbar and moved less crtiical navs to footer.",
     },
+
     {
       date: "2024-12-31",
       type: "content",
@@ -45,4 +51,3 @@ module.exports = {
     },
   ],
 };
-
