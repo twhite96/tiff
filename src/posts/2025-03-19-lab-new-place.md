@@ -11,7 +11,7 @@ I grabbed all of my main tech stuff plus my OLED TV which is over at my uncle's 
 
 I am currently deciding whether to write about my next endeavor but in the meantime here is how I'm arranging the room:
 
-{% eleventyImage "./src/assets/images/blog/room-lab-v1.jpg", "Photo of an electronics lab for repair", "Main lab area with all the electronics and PC gear needed for my next project. Needs a bit of organizing and cleanup but [it's halfway there](https://youtu.be/lDK9QqIzhwk?si=4vqA3nGfAJirX7yh&t=93)." %}
+{% eleventyImage "./src/assets/images/blog/room-lab-v1.jpg", "Photo of an electronics lab for repair", "Main lab area with all the electronics and PC gear needed for my next project. Needs a bit of organizing and cleanup but." %}
 
 This is the backdrop I am working on beside my bed. Trying to decide where I should put these framed posters.
 
