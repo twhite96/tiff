@@ -1,3 +1,6 @@
 ---
-title: "🐚 One Liners"
+title: '🐚 One Liners'
 ---
+
+- `docker compose up -d`
+

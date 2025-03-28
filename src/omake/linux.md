@@ -1,11 +1,12 @@
 ---
-title: "🐧 Linux"
+title: '🐧 Linux'
 ---
 
-##### My current Distros:
+##### My current Distros
 
-- NixOS: Daily Driver
-- ZorinOS: Casual browsing
-- Kali: for my ***put long into the future for now*** pivot to cybersecurity
-- Fedora: a standby in case NixOS breaks me
-
+- Arch: Daily Driver
+  - Desktop Environment: GNOME
+  - DE with tiling windows: Hyprland
+- CachyOS: For running scripts in the lab
+  - Desktop Environment: GNOME
+  - DE with tiling windows: Hyprland
