@@ -32,4 +32,4 @@ Take a peak.
 
 Video of the space, with trash that needs to be taken out, tut tut:
 
-<iframe width="100%" height="795px" src="https://media.wstb.dev/embed?m=tHtfgwkyS" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="560" src="https://media.wstb.dev/embed?m=tHtfgwkyS" frameborder="0" allowfullscreen></iframe>
