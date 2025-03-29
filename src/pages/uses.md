@@ -87,7 +87,7 @@ Desktop Environment to test out what I like and don't like in this DE and Distro
 
 ### Linux
 
-{% eleventyImage "./src/assets/images/gallery/2025-02-09-uses/fedora-gnome-laptop.png", "width=400", "Fedora with the macOS like GNOME DE" %}
+{% eleventyImage "./src/assets/images/screenshots/neofetch_hyprshot.png", "width=400", "Using Arch, btw with Hyprlan tiling window manager" %}
 
 {% eleventyImage "./src/assets/images/gallery/2025-02-09-uses/fedora-kde-nuc.png", "width=400", "Fedora 41 Workstation with the uber customizable KDE Plasma Desktop. Working on getting Hyprland up and running." %}
 
