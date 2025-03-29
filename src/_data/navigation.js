@@ -12,6 +12,10 @@ module.exports = {
       text: "/omake",
       url: "/omake/",
     },
+    {
+      text: "/linux series",
+      url: "/apple-to-linux/",
+    },
     // {
     //   text: '/journal',
     //   url: '/journal/page-0/'
@@ -20,13 +24,17 @@ module.exports = {
     //   text: '/career',
     //   url: '/career-anxieties/page-0/'
     // },
-    {
-      text: "/tools",
-      url: "/tools/page-0/",
-    },
+    // {
+    //   text: "/tools",
+    //   url: "/tools/page-0/",
+    // },
     {
       text: "/knives",
       url: "/knives/page-0/",
+    },
+    {
+      text: "/blogroll",
+      url: "/blogroll/",
     },
     // // {
     // //   text: "reviews",
@@ -55,28 +63,8 @@ module.exports = {
       url: "/changelog/",
     },
     {
-      text: "/blogroll",
-      url: "/blogroll/",
-    },
-    {
-      text: "/tuberoll",
-      url: "/tuberoll/",
-    },
-    {
-      text: "/vignettes",
-      url: "/vignettes/page-0/",
-    },
-    {
-      text: "/consoles",
-      url: "/consoles/",
-    },
-    {
       text: "/privacy",
       url: "/privacy/",
-    },
-    {
-      text: "🎧",
-      url: "/now-playing/",
     },
   ],
 };

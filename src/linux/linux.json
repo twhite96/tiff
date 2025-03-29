@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "switching to linux",
+  "permalink": "/apple-to-linux/{{ title | slugify }}/index.html"
+}

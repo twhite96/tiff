@@ -1,6 +1,27 @@
 module.exports = {
   log: [
     {
+      date: "2025-03-28",
+      type: "chore",
+      content: "Fixed responsiveness of hosted videos.",
+    },
+    {
+      date: "2025-03-28",
+      type: "chore",
+      content: "Remove unnecessary navbar and bottom nav items.",
+    },
+    {
+      date: "2025-03-28",
+      type: "content",
+      content: "Add Apple to Linux series.",
+    },
+    {
+      date: "2025-03-28",
+      type: "content",
+      content: "Reworked the blogroll.",
+    },
+
+    {
       date: "2025-03-25",
       type: "content",
       content: "More posts as I plan to write more and read more this year.",

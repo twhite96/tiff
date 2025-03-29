@@ -1,92 +1,86 @@
 [
-    {
-        "title": "Scott Willsey",
-        "description": "Long time Twitter and all around pal. Good guy with an affinity for tech and the open web.",
-        "mastodon": "scottaw",
-        "url": "https://scottwillsey.com/",
-        "feed": "https://scottwillsey.com/rss.xml"
-    },
-    {
-        "title": "Amit Gawande",
-        "url": "https://amitg.blog/",
-        "feed": "https://amitg.blog/feed.atom",
-        "description": "A microblogger I followed at micro.blog and whose thoughts I am interested in and enjoy reading about.",
-        "twitter": "whalecoiner"
-    },
-    {
-        "title": "Brent Simmons",
-        "url": "https://inessential.com/",
-        "feed": "https://inessential.com/xml/rss.xml",
-        "description": "Maker of my favorite RSS reader for Apple devices and a former developer of my favorite all time RSS reader of any platform, FeedDemon for Windows.",
-        "twitter": "m_ott"
-    },
-    {
-        "title": "Joel Spolsky",
-        "url": "https://www.joelonsoftware.com/",
-        "feed": "https://ethanmarcotte.com/wrote/feed.xml",
-        "description": "The man, the myth, the legend.",
-        "twitter": "beep"
-    },
-    {
-        "title": "Joe Ross",
-        "url": "https://joeross.me/",
-        "feed":"https://joeross.me/feed.json",
-        "description": "Excellent follow on Mastodon and his writing is some of the more interesting in the indie tech space.",
-        "mastodon": "joeross"
-    },
-    {
-        "title": "Jason Burke",
-        "url": "https://grepjason.sh/",
-        "feed": "https://grepjason.sh/rss.xml",
-        "description": "Another micro.blog follow. His blog is also just a fantastic place; the landing page is just super fun.",
-        "twitter": "justmarkup"
-    },
-    {
-        "title": "Sarah Drasner",
-        "url": "https://sarah.dev/",
-        "description": "Sarah really needs no introduction. She's an expert on SVG, core team member of Vue, award winning speaker and staff writer on CSS-Tricks.",
-        "twitter": "sarah_edo"
-    },
-    {
-        "title": "Road to Homelab",
-        "url": "https://roadtohomelab.blog/",
-        "feed": "https://roadtohomelab.blog/feed",
-        "description": "An interesting blog to follow if you're just starting a homelab.",
-        "twitter": "heydonworks"
-    },
-    {
-        "title": "Tech Addressed",
-        "url": "https://www.techaddressed.com/",
-        "feed": "https://www.techaddressed.com/feed/",
-        "description": "Advanced Linux tutorials for adventurous homelabbers.",
-        "twitter": "glyphe"
-    },
-    {
-        "title": "Techno Tim",
-        "url": "https://technotim.live/",
-        "feed": "https://technotim.live/feed.xml",
-        "description": "The man that made it easy for me to go down the homelab rabbit hole with his easy explanations and infectious charisma.",
-        "twitter": "lisi_linhart"
-    },
-    {
-        "title": "It's FOSS",
-        "url": "https://itsfoss.com/",
-        "feed": "https://itsfoss.com/rss/",
-        "description": "Easy going Linux and FOSS articles for the new Linux user.",
-        "twitter": "#"
-    },
-    {
-        "title": "Aaron Godfrey",
-        "url": "https://aarongodfrey.dev/",
-        "feed":"https://aarongodfrey.dev/feed.xml",
-        "description": "An excellent resource for home automation outside of homelab setups.",
-        "twitter": "#"
-    },
-    {
-        "title": "Tanner's Tech",
-        "url": "https://tcude.net/",
-        "feed": "https://tcude.net/rss/",
-        "description": "Tanner was the only person who could guide me through setting up Grafana to monitor Proxmox. Give him a read if homelabs are your thing.",
-        "twitter": "zachleat"
-    }
+  {
+    "title": "Scott Willsey",
+    "description": "Long time Twitter and all around pal. Good guy with an affinity for tech and the open web.",
+    "mastodon": "scottaw",
+    "url": "https://scottwillsey.com/",
+    "feed": "https://scottwillsey.com/rss.xml"
+  },
+  {
+    "title": "Ed Zitron's Where's Your Ed At",
+    "url": "https://www.wheresyoured.at/",
+    "feed": "https://www.wheresyoured.at/rss",
+    "description": "A microblogger I followed at micro.blog and whose thoughts I am interested in and enjoy reading about.",
+    "twitter": ""
+  },
+  {
+    "title": "Beard Guy Musings",
+    "url": "https://beardystarstuff/",
+    "feed": "https://beardystarstuff/rss.xml",
+    "description": "I find this guy's blog comforting yet inspiring. His move for social justice and activism keeps me reading.",
+    "mastodon": "dennyhenke"
+  },
+  {
+    "title": "Mark Pitblado",
+    "url": "https://www.markpitblado.me/",
+    "feed": "https://www.markpitblado.me/feed.xml",
+    "description": "His self-hosting posts and developer posts are great but he's also a thoughtful blogger as well.",
+    "twitter": "beep"
+  },
+  {
+    "title": "Joe Ross",
+    "url": "https://joeross.me/",
+    "feed": "https://joeross.me/feed.json",
+    "description": "Excellent follow on Mastodon and his writing is some of the more interesting in the indie tech space.",
+    "mastodon": "joeross"
+  },
+  {
+    "title": "Jason Burke",
+    "url": "https://grepjason.sh/",
+    "feed": "https://grepjason.sh/rss.xml",
+    "description": "Another micro.blog follow. His blog is also just a fantastic place; the landing page is just super fun.",
+    "twitter": "justmarkup"
+  },
+  {
+    "title": "Brilliantcrank",
+    "url": "https://brilliantcrank.com",
+    "feed": "https://brilliantcrank.com/rss/",
+    "description": "An old cranky techy who writes about politics, tech, and humanitarianism.",
+    "twitter": ""
+  },
+  {
+    "title": "LewisDale.dev",
+    "url": "https://lewisdale.dev",
+    "feed": "https://lewisdale.dev/atom.xml",
+    "description": "His willingness to be publicly vulnerable makes this a beginning of the day and end of night read.",
+    "twitter": ""
+  },
+  {
+    "title": "LJPUK – Sharing my passions",
+    "url": "https://ljpuk.net/",
+    "feed": "https://ljpuk.net/feed/",
+    "description": "A perspective of American tech from across the pond. It's thoughtful, some posts are brief, like a personal website can be, but always worth a read.",
+    "twitter": "#"
+  },
+  {
+    "title": "Aaron Godfrey",
+    "url": "https://aarongodfrey.dev/",
+    "feed": "https://aarongodfrey.dev/feed.xml",
+    "description": "An excellent resource for home automation outside of homelab setups.",
+    "github": "boralyl"
+  },
+  {
+    "title": "Chris McLeod",
+    "url": "https://chrismcleod.dev/",
+    "feed": "https://chrismcleod.dev/follow/",
+    "description": "Chris is an incredible developer and his website gives me a ton of inspiration.",
+    "github": ""
+  },
+  {
+    "title": "Andrew Healey",
+    "url": "https://healeycodes.com/",
+    "feed": "https://healeycodes.com/feed.xml",
+    "description": "Andrew is who I wanted to be when I was trying to get further in the industry. Unlimited curiosity and an abundance of intelligence and the ability to build things without thinking about the end goal.",
+    "twitter": ""
+  }
 ]
