@@ -1,6 +1,11 @@
-email: little.road4979@fastmail.com
+email: hola@somemail.com
 address: |-
-  Pale Blue Dot
-social:
-  mastodon: 'https://appdot.net/@tiff'
-  kofi: 'https://ko-fi.com/tiffandg'
+  Organization name
+  Your street
+  12345, city
+  Tel: +34 928231911
+platforms:
+  github: 'https://github.com/madrilene/eleventy-excellent'
+  mastodon: 'https://front-end.social/@lene'
+  bluesky: 'https://bsky.app/profile/lenesaile.com'
+  kofi: 'https://ko-fi.com/lenesaile'
