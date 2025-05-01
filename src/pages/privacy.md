@@ -1,48 +1,36 @@
 ---
 title: Privacy Policy
-seo:
+discover:
   title: Privacy Policy
 permalink: /privacy/index.html
-description: How I handle your data.
+description: I respect the EU General Data Protection Regulation (GDPR). This policy document explains how I collect and handle any information you provide to me.
 layout: page
 ---
 
-This website does not collect any personal data. It does not set any cookies and it does not use any third-party tracking scripts. No user analytics or other metrics are processed during your visit, and the server does not write any log files, which means your IP address is not stored anywhere.
+Edit your details in `_data/personal.yaml`
 
-Basically, it's just a free piece of content, no strings attached.
+I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
 
-## Secure Data Transfer
+**What background data is collected?**
+This site does not use any third party tracking scripts.
 
-This website transmits itself using HTTPS, encrypting all data between the browser and the server. Your network provider may still be able to see that you are loading files from this site, but not their content. This also protects you from third parties intercepting data e.g. while browsing on public WiFi, or network providers injecting ads into this site.
+**How do I use the data you provide?**
+This website does not collect any data.
 
-## Webmentions
+**How secure is your data?**
+Very secure, as this website does not collect any information.
 
-This website implements [Webmentions](https://en.wikipedia.org/wiki/Webmention), a form of content interaction on the web. Other systems may send webmentions to this site, whenever a resource (like an article or note) on this website is linked to. This includes:
-
-* Content published on other blogs that contain such a link
-* Tweets published on Twitter that contain such a link
-* Replies and comments made on a tweet that contains such a link
-
-Incoming webmentions are handled as a request to comment on a piece of content, and can be included on this website. A webmention can include your personal data, provided you have made that data publicly visible on your website or social media profile. Webmentions can include:
-
-* Your username (may be your real name)
-* Your profile picture
-* The webmention source URL (may be your own site or a tweet)
-* The content of your comment or reply
-
-The processing of incoming Webmentions is based on the legitimate interest to enable interaction with the readers of this website (Art. 6(1) lit. f GDPR), following the design intention of the Webmention protocol.
-
-If your personal data was published in a webmention, you may at any time demand the removal of it from this website. To do so, please notify me and point me to the entry in question.
-
+**How secure is this website?**
+This website transmits itself using HTTPS, encrypting all data between the browser and the server. Your network provider can still see that you are downloading assets from this site, but not its content. This also protects you from third parties intercepting data, for example, while browsing on public WiFi, or from network providers injecting advertisements on this site. All relevant response HTTP headers are set for your protection and the Content Security Policy is adjusted to this websites requirements.
 
 **Data controller**
 
 {{ personal.address }}
 
-If you have any questions or doubts, please contact me: <a href="mailto:{{ personal.email }}">{{ personal.email }}</a>.
+If you have any questions or doubts, please contact me: {{ personal.email }}.
 
 **Changes to the policy**
 If I change the content of this policy, those changes will be effective at the time I post them here.
 
 **Complaints**
-If you have any reason to complain about the way I handle your privacy, please contact me by email: <a href="mailto:{{ personal.email }}">{{ personal.email }}</a>.
+If you have any reason to complain about the way I handle your privacy, please contact me by email: {{ personal.email }}.
